@@ -1,1 +1,0 @@
-inventory_item:	.type "gem"		.id "abyss_amethyst"		.base_stack_limit 3	    	                            .purchase_gold_value 0			.sell_gold_value 4500

@@ -1,0 +1,91 @@
+{
+    "torch_settings_data_table": [
+        {
+            "key": "vermintide_light",
+            "data": {
+                "burn_down_enabled": true,
+                "hero_buff_list" : [ "vmt_dungeon_rule_rank1_AMBUSH_D" ],
+                "overlays": [ "battle_round", "light_torch" ],
+                "monster_buff_list" : [
+                    "flickering_flames_monster_received_heal", "flickering_flames_monster_stress_DMG",
+                    "flickering_flames_monster_DMGL", "flickering_flames_monster_DMGH", "flickering_flames_monster_crit",
+                    "flickering_flames_monster_def", "flickering_flames_monster_prot",
+
+                    "FF_cove_monster",
+                    "FF_crypts_monster",
+                    "FF_warrens_monster",
+                    "FF_weald_monster", "FF_weald_monster_once_heal",
+                    "FF_courtyard_monster",
+                    "FF_farmstead_monster"
+                ],
+                "hero_effect_list" : [
+                    "FF_clear_buff",
+                    
+                    "Light_Initialization_1", "Light_Initialization_2",
+                    "Light_Random_Increase_1", "Light_Random_Increase_2", "Light_Random_Decrease_1", "Light_Random_Decrease_2",
+                    "Spark_of_Life", "Candlelight_of_Hope", "Lamplight_of_Guidance", "Dawn_of_the_Firmament",
+                    "Shadowflame_of_Unease", "Glare_of_Distortion", "Deathfire_of_Nightmare", "Darkness_of_Abyss",
+                    "Fury_of_Brutality", "Greenflame_of_Decay", "Redflame_of_Blood", "Frostfire_of_Sloth"
+                ]
+            }
+        },
+        {
+            "key": "vermintide_hamlet_light",
+            "data": {
+                "burn_down_enabled": true,
+                "hero_buff_list" : [],
+                "overlays": [ "battle_round", "light_torch" ],
+                "monster_buff_list" : [
+                    "flickering_flames_monster_received_heal", "flickering_flames_monster_stress_DMG",
+                    "flickering_flames_monster_DMGL", "flickering_flames_monster_DMGH", "flickering_flames_monster_crit",
+                    "flickering_flames_monster_def", "flickering_flames_monster_prot",
+
+                    "FF_cove_monster",
+                    "FF_crypts_monster",
+                    "FF_warrens_monster",
+                    "FF_weald_monster", "FF_weald_monster_once_heal",
+                    "FF_courtyard_monster",
+                    "FF_farmstead_monster"
+                ],
+                "hero_effect_list" : [
+                    "FF_clear_buff",
+                    
+                    "Light_Initialization_1", "Light_Initialization_2",
+                    "Light_Random_Increase_1", "Light_Random_Increase_2", "Light_Random_Decrease_1", "Light_Random_Decrease_2",
+                    "Spark_of_Life", "Candlelight_of_Hope", "Lamplight_of_Guidance", "Dawn_of_the_Firmament",
+                    "Shadowflame_of_Unease", "Glare_of_Distortion", "Deathfire_of_Nightmare", "Darkness_of_Abyss",
+                    "Fury_of_Brutality", "Greenflame_of_Decay", "Redflame_of_Blood", "Frostfire_of_Sloth"
+                ]
+            }
+        },
+        {
+            "key": "vermintide_hellpit",
+            "data": {
+                "burn_down_enabled": true,
+                "hero_buff_list" : [ "vmt_dungeon_rule_AMBUSH_B" ],
+                "overlays": [ "battle_round", "light_torch" ],
+                "monster_buff_list" : [
+                    "flickering_flames_monster_received_heal", "flickering_flames_monster_stress_DMG",
+                    "flickering_flames_monster_DMGL", "flickering_flames_monster_DMGH", "flickering_flames_monster_crit",
+                    "flickering_flames_monster_def", "flickering_flames_monster_prot",
+
+                    "FF_cove_monster",
+                    "FF_crypts_monster",
+                    "FF_warrens_monster",
+                    "FF_weald_monster", "FF_weald_monster_once_heal",
+                    "FF_courtyard_monster",
+                    "FF_farmstead_monster"
+                ],
+                "hero_effect_list" : [
+                    "FF_clear_buff",
+                    
+                    "Light_Initialization_1", "Light_Initialization_2",
+                    "Light_Random_Increase_1", "Light_Random_Increase_2", "Light_Random_Decrease_1", "Light_Random_Decrease_2",
+                    "Spark_of_Life", "Candlelight_of_Hope", "Lamplight_of_Guidance", "Dawn_of_the_Firmament",
+                    "Shadowflame_of_Unease", "Glare_of_Distortion", "Deathfire_of_Nightmare", "Darkness_of_Abyss",
+                    "Fury_of_Brutality", "Greenflame_of_Decay", "Redflame_of_Blood", "Frostfire_of_Sloth"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <language id="english">
+
+    <!--buff-->
+
+      <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} amount when applied]]></entry>
+			<entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} amount when applied]]></entry>
+      <entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+      <entry id="buff_stat_tooltip_hp_heal_dot_amount_received_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Received]]></entry>
+      <entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[Ignores Stealth]]></entry>
+      <entry id="buff_stat_tooltip_ignore_guard"><![CDATA[Ignores Guard]]></entry>
+      <entry id="buff_stat_tooltip_ignore_protection"><![CDATA[Armor Piercing: %+d%%]]></entry>
+
+    <!--trinket-->
+      
+      <entry id="trinket_rarity_Wonderland"><![CDATA[{colour_start|wonderland_rarity}Wonderland{colour_end}]]></entry>
+
+      <entry id="effect_tooltip_this_trinket"><![CDATA[This Trinket:]]></entry>
+      <entry id="trinket_trigger_limit"><![CDATA[Trigger Limit: %d
+      ]]></entry>
+      <entry id="effect_trigger_limit_set"><![CDATA[Trigger Limit changes to %d
+      ]]></entry>
+      <entry id="effect_trigger_limit_increase"><![CDATA[Trigger Limit +%d~%d
+      ]]></entry>
+      <entry id="effect_trigger_limit_decrease"><![CDATA[Trigger Limit -%d~%d
+      ]]></entry>
+      <entry id="str_trinket_transform_on_trigger_limit_exhausted"><![CDATA[When Trigger Limit Exhausted: Transform into %s]]></entry>
+      
+      <entry id="trinket_attack_skill_additional_effects"><![CDATA[On Attack:]]></entry>
+      <entry id="trinket_attack_skill_additional_effects_hit_trigger_effect"><![CDATA[On Attack Hit:]]></entry>
+      <entry id="trinket_attack_skill_additional_effects_miss_trigger_effect"><![CDATA[On Attack Miss:]]></entry>
+      <entry id="trinket_attack_skill_additional_effects_hit_miss_trigger_effect"><![CDATA[On Attack:]]></entry>
+
+      <entry id="trinket_friendly_skill_additional_effects"><![CDATA[Friendly Skill:]]></entry>
+      <entry id="trinket_friendly_skill_additional_effects_trigger_effect"><![CDATA[Friendly Skill:]]></entry>
+
+      <entry id="trinket_was_hit_additional_effects"><![CDATA[On Being Hit:]]></entry>
+      <entry id="trinket_was_hit_additional_effects_trigger_effect"><![CDATA[On Being Hit:]]></entry>
+      
+      <entry id="trinket_on_dodge_additional_effects"><![CDATA[On Dodge:]]></entry>
+      <entry id="trinket_on_dodge_additional_effects_trigger_effect"><![CDATA[On Dodge:]]></entry>
+
+      <entry id="trinket_turn_end_additional_effects_hit"><![CDATA[After Turn End:]]></entry>
+      <entry id="trinket_turn_end_additional_effects_hit_trigger_effect"><![CDATA[After Turn End:]]></entry>
+      <entry id="trinket_turn_end_additional_effects_miss"><![CDATA[After Turn End:]]></entry>
+      <entry id="trinket_turn_end_additional_effects_miss_trigger_effect"><![CDATA[After Turn End:]]></entry>
+      <entry id="trinket_turn_end_additional_effects_hit_miss"><![CDATA[After Turn End:]]></entry>
+      <entry id="trinket_turn_end_additional_effects_hit_miss_trigger_effect"><![CDATA[After Turn End:]]></entry>
+
+      <entry id="trinket_battle_finished_successfully_additional_effects"><![CDATA[On Combat End:]]></entry>
+      <entry id="trinket_battle_finished_successfully_additional_effects_trigger_effect"><![CDATA[On Combat End:]]></entry>
+
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Trigger"><![CDATA[
+      {colour_start|warning}Not affected by trinkets that does not expend Trigger Limits.{colour_end}]]></entry>
+
+
+
+      <entry id="str_inventory_title_trinketWonderland_Alice"><![CDATA[The One in a Thousand Alice]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Alice"><![CDATA[{colour_start|white}The One in a Thousand Alice{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Alice"><![CDATA[{colour_start|pink}The One in a Thousand Alice{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Alice"><![CDATA[{colour_start|sky_blue}The One in a Thousand Alice{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Alice"><![CDATA[{colour_start|beige}The One in a Thousand Alice{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Alice_T"><![CDATA[The One in a Thousand Alice]]></entry>
+      
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Alice_1"><![CDATA[{colour_start|beige}"Which Alice will it be this time?"{colour_end}
+      {colour_start|gray}(Gains random buffs after an action.){colour_end}]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Alice_2"><![CDATA[{colour_start|beige}"The Alice for this time has already decided.{colour_end}"]]></entry>
+
+
+      
+      <entry id="str_inventory_title_trinketWonderland_March_Hare"><![CDATA[The March Hare's Watch]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_March_Hare"><![CDATA[{colour_start|white}The March Hare's Watch{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_March_Hare"><![CDATA[{colour_start|pink}The March Hare's Watch{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_March_Hare"><![CDATA[{colour_start|sky_blue}The March Hare's Watch{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_March_Hare"><![CDATA[{colour_start|beige}The March Hare's Watch{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_March_Hare_T1"><![CDATA[{colour_start|march_hare_T1}The March Hare's Watch{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_March_Hare_T2"><![CDATA[{colour_start|march_hare_T2}The March Hare's Watch{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_March_Hare_T3"><![CDATA[{colour_start|march_hare_T3}The March Hare's Watch{colour_end}]]></entry>
+      
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_March_Hare_0"><![CDATA[After Turn End Stress +6 and act again.]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_March_Hare_1"><![CDATA[{colour_start|beige}"Tick-tock—.{colour_end}"]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_March_Hare_2"><![CDATA[{colour_start|beige}"Oh dear! Oh dear!{colour_end}"]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_March_Hare_3"><![CDATA[{colour_start|beige}"I shall be too late!{colour_end}"]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_March_Hare_4"><![CDATA[{colour_start|beige}"Time's up!.{colour_end}"]]></entry>
+
+
+
+      <entry id="str_inventory_title_trinketWonderland_Caterpillar_1"><![CDATA[{colour_start|caterpillar_1}The Cater{colour_end}{colour_start|caterpillar_2}pillar's Hookah{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Caterpillar_2"><![CDATA[{colour_start|caterpillar_2}The Cater{colour_end}{colour_start|caterpillar_3}pillar's Hookah{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Caterpillar_3"><![CDATA[{colour_start|caterpillar_3}The Cater{colour_end}{colour_start|caterpillar_4}pillar's Hookah{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Caterpillar_4"><![CDATA[{colour_start|caterpillar_4}The Cater{colour_end}{colour_start|caterpillar_1}pillar's Hookah{colour_end}]]></entry>
+      
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Caterpillar_B"><![CDATA[{colour_start|caterpillar_1}Energizing Smoke{colour_end}: Friendly Skill {colour_start|buff}Buff Party{colour_end}: +7 ACC/+7 DODGE/+1 SPD]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Caterpillar_Y"><![CDATA[{colour_start|caterpillar_2}Psychedelic Smoke{colour_end}: Attack Skill {colour_start|debuff}Debuff Party{colour_end}: -7 ACC/After the attack, the attacker will be Stunned and Shuffled (1 Time)]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Caterpillar_G"><![CDATA[{colour_start|caterpillar_3}Healing Smoke{colour_end}: Friendly Skill {colour_start|buff}Buff Party{colour_end}: -4 Stress/2 {colour_start|healhp}Restoration {colour_end}]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Caterpillar_P"><![CDATA[{colour_start|caterpillar_4}Weakening Smoke{colour_end}: Attack Skill {colour_start|debuff}Debuff Party{colour_end}: -7%% DMG/-1 SPD/After the attack, the attacker +7%% DMG Taken]]></entry>
+
+      <entry id="buff_tooltip_Caterpillar_Y_trigger"><![CDATA[After the attack, the attacker will be {colour_start|stun}Stunned {colour_end}and {colour_start|move}Shuffled {colour_end}(1 Time)]]></entry>
+      <entry id="buff_tooltip_Caterpillar_P_trigger"><![CDATA[After the attack, the attacker +7%% DMG Taken]]></entry>
+      
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Caterpillar_1"><![CDATA[{colour_start|beige}"So you think you're changed, do you?{colour_end}"]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Caterpillar_2"><![CDATA[{colour_start|beige}"You'll get used to it in time,{colour_end}"]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Caterpillar_3"><![CDATA[{colour_start|beige}"Can't remember WHAT things?{colour_end}"]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Caterpillar_4"><![CDATA[{colour_start|beige}"Who are YOU?{colour_end}"]]></entry>
+
+
+
+      <entry id="str_inventory_title_trinketWonderland_Mad_Hatter"><![CDATA[The Mad Hatter's Hat]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Mad_Hatter"><![CDATA[{colour_start|pink}The Mad Hatter's Hat{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Mad_Hatter_T"><![CDATA[The Mad Hatter's Hat]]></entry>
+      
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Mad_Hatter_D_1"><![CDATA[On Dodge: This trinket +2%% CRT/+5%% DMG vs {colour_start|mark}Mark{colour_end} Target; buffs are lost when hit.]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Mad_Hatter_H_1"><![CDATA[On Being Hit: This trinket +10 DODGE; buffs are lost when dodging.]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Mad_Hatter_D_2"><![CDATA[On Dodge: {colour_start|mark}Mark{colour_end} attacker and apply the "Murdered Time" effect; immediately act again.]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Murdered_Time"><![CDATA[{colour_start|murdered_time}Murdered Time{colour_end}: Remove Guarded/-25%% PROT/-25 DODGE/+25%% DMG Taken(effect ends after action)]]></entry>
+      
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Mad_Hatter_1"><![CDATA[{colour_start|beige}"I and time quarrelled last March."{colour_end}]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Mad_Hatter_2"><![CDATA[{colour_start|beige}"Have I gone mad?" "I'm afraid so."{colour_end}]]></entry>
+
+    </language>
+
+    <language id="schinese">
+
+    <!--buff-->
+
+      <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}流血{colour_end}效果]]></entry>
+      <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}腐蚀{colour_end}效果]]></entry>
+      <entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% {colour_start|healhp}愈合{colour_end}效果]]></entry>
+      <entry id="buff_stat_tooltip_hp_heal_dot_amount_received_percent"><![CDATA[%+d%% 所受{colour_start|healhp}愈合{colour_end}效果]]></entry>
+      <entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[无视潜行]]></entry>
+      <entry id="buff_stat_tooltip_ignore_guard"><![CDATA[无视守护]]></entry>
+      <entry id="buff_stat_tooltip_ignore_protection"><![CDATA[%+d%%穿甲]]></entry>
+
+    <!--trinket-->
+      
+      <entry id="trinket_rarity_Wonderland"><![CDATA[{colour_start|wonderland_rarity}仙境{colour_end}]]></entry>
+
+      <entry id="effect_tooltip_this_trinket"><![CDATA[这件饰品：]]></entry>
+      <entry id="trinket_trigger_limit"><![CDATA[触发次数：%d
+      ]]></entry>
+      <entry id="effect_trigger_limit_set"><![CDATA[触发次数变为%d
+      ]]></entry>
+      <entry id="effect_trigger_limit_increase"><![CDATA[触发次数+%d~%d
+      ]]></entry>
+      <entry id="effect_trigger_limit_decrease"><![CDATA[触发次数-%d~%d
+      ]]></entry>
+      <entry id="str_trinket_transform_on_trigger_limit_exhausted"><![CDATA[触发次数耗尽时：转变为%s]]></entry>
+      
+      <entry id="trinket_attack_skill_additional_effects"><![CDATA[攻击时：]]></entry>
+      <entry id="trinket_attack_skill_additional_effects_hit_trigger_effect"><![CDATA[攻击命中时：]]></entry>
+      <entry id="trinket_attack_skill_additional_effects_miss_trigger_effect"><![CDATA[攻击未命中时：]]></entry>
+      <entry id="trinket_attack_skill_additional_effects_hit_miss_trigger_effect"><![CDATA[攻击时：]]></entry>
+
+      <entry id="trinket_friendly_skill_additional_effects"><![CDATA[友方技能：]]></entry>
+      <entry id="trinket_friendly_skill_additional_effects_trigger_effect"><![CDATA[友方技能：]]></entry>
+
+      <entry id="trinket_was_hit_additional_effects"><![CDATA[被命中时：]]></entry>
+      <entry id="trinket_was_hit_additional_effects_trigger_effect"><![CDATA[被命中时：]]></entry>
+      
+      <entry id="trinket_on_dodge_additional_effects"><![CDATA[闪避时：]]></entry>
+      <entry id="trinket_on_dodge_additional_effects_trigger_effect"><![CDATA[闪避时：]]></entry>
+
+      <entry id="trinket_turn_end_additional_effects_hit"><![CDATA[自身行动结束时：]]></entry>
+      <entry id="trinket_turn_end_additional_effects_hit_trigger_effect"><![CDATA[自身行动结束时：]]></entry>
+      <entry id="trinket_turn_end_additional_effects_miss"><![CDATA[自身行动结束时：]]></entry>
+      <entry id="trinket_turn_end_additional_effects_miss_trigger_effect"><![CDATA[自身行动结束时：]]></entry>
+      <entry id="trinket_turn_end_additional_effects_hit_miss"><![CDATA[自身行动结束时：]]></entry>
+      <entry id="trinket_turn_end_additional_effects_hit_miss_trigger_effect"><![CDATA[自身行动结束时：]]></entry>
+
+      <entry id="trinket_battle_finished_successfully_additional_effects"><![CDATA[战斗胜利时：]]></entry>
+      <entry id="trinket_battle_finished_successfully_additional_effects_trigger_effect"><![CDATA[战斗胜利时：]]></entry>
+
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Trigger"><![CDATA[
+      {colour_start|warning}不受防止消耗触发次数的饰品影响{colour_end}]]></entry>
+
+
+
+      <entry id="str_inventory_title_trinketWonderland_Alice"><![CDATA[千分之一的爱丽丝]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Alice"><![CDATA[{colour_start|white}千分之一的爱丽丝{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Alice"><![CDATA[{colour_start|pink}千分之一的爱丽丝{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Alice"><![CDATA[{colour_start|sky_blue}千分之一的爱丽丝{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Alice"><![CDATA[{colour_start|beige}千分之一的爱丽丝{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Alice_T"><![CDATA[千分之一的爱丽丝]]></entry>
+      
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Alice_1"><![CDATA[{colour_start|beige}“这次的爱丽丝会是谁呢？”{colour_end}
+      {colour_start|gray}(自身在一次行动后获得随机效果){colour_end}]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Alice_2"><![CDATA[{colour_start|beige}“这次的爱丽丝已然定下”{colour_end}]]></entry>
+
+
+
+      <entry id="str_inventory_title_trinketWonderland_March_Hare"><![CDATA[三月兔的怀表]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_March_Hare"><![CDATA[{colour_start|white}三月兔的怀表{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_March_Hare"><![CDATA[{colour_start|pink}三月兔的怀表{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_March_Hare"><![CDATA[{colour_start|sky_blue}三月兔的怀表{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_March_Hare"><![CDATA[{colour_start|beige}三月兔的怀表{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_March_Hare_T1"><![CDATA[{colour_start|march_hare_T1}三月兔的怀表{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_March_Hare_T2"><![CDATA[{colour_start|march_hare_T2}三月兔的怀表{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_March_Hare_T3"><![CDATA[{colour_start|march_hare_T3}三月兔的怀表{colour_end}]]></entry>
+      
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_March_Hare_0"><![CDATA[自身行动结束后+6压力并再次行动]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_March_Hare_1"><![CDATA[{colour_start|beige}“滴答滴答——”{colour_end}]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_March_Hare_2"><![CDATA[{colour_start|beige}“哎呀！哎呀！”{colour_end}]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_March_Hare_3"><![CDATA[{colour_start|beige}“要迟到了！”{colour_end}]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_March_Hare_4"><![CDATA[{colour_start|beige}“时间到！”{colour_end}]]></entry>
+
+
+
+      <entry id="str_inventory_title_trinketWonderland_Caterpillar_1"><![CDATA[{colour_start|caterpillar_1}智虫的{colour_end}{colour_start|caterpillar_2}水烟斗{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Caterpillar_2"><![CDATA[{colour_start|caterpillar_2}智虫的{colour_end}{colour_start|caterpillar_3}水烟斗{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Caterpillar_3"><![CDATA[{colour_start|caterpillar_3}智虫的{colour_end}{colour_start|caterpillar_4}水烟斗{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Caterpillar_4"><![CDATA[{colour_start|caterpillar_4}智虫的{colour_end}{colour_start|caterpillar_1}水烟斗{colour_end}]]></entry>
+      
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Caterpillar_B"><![CDATA[{colour_start|caterpillar_1}振奋烟雾{colour_end}：友方技能{colour_start|buff}增益我方队伍{colour_end}：+7精准/+7闪避/+1速度]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Caterpillar_Y"><![CDATA[{colour_start|caterpillar_2}迷幻烟雾{colour_end}：攻击技能{colour_start|debuff}减益敌方队伍{colour_end}：-7精准/攻击后自身被眩晕与扰乱(1次)]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Caterpillar_G"><![CDATA[{colour_start|caterpillar_3}疗愈烟雾{colour_end}：友方技能{colour_start|buff}增益我方队伍{colour_end}：-4压力/2{colour_start|healhp}愈合{colour_end}]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Caterpillar_P"><![CDATA[{colour_start|caterpillar_4}虚弱烟雾{colour_end}：攻击技能{colour_start|debuff}减益敌方队伍{colour_end}：-7%%伤害/-1速度/攻击后自身+7%%受到的伤害]]></entry>
+
+      <entry id="buff_tooltip_Caterpillar_Y_trigger"><![CDATA[攻击后自身被{colour_start|stun}眩晕{colour_end}与{colour_start|move}扰乱{colour_end}(1次)]]></entry>
+      <entry id="buff_tooltip_Caterpillar_P_trigger"><![CDATA[攻击后自身+7%%受到的伤害]]></entry>
+      
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Caterpillar_1"><![CDATA[{colour_start|beige}“你认为你已经变了，是吗？”{colour_end}]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Caterpillar_2"><![CDATA[{colour_start|beige}“不久后你会习惯的。”{colour_end}]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Caterpillar_3"><![CDATA[{colour_start|beige}“你忘了些什么？”{colour_end}]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Caterpillar_4"><![CDATA[{colour_start|beige}“你是谁？”{colour_end}]]></entry>
+
+
+
+      <entry id="str_inventory_title_trinketWonderland_Mad_Hatter"><![CDATA[疯帽客的高礼帽]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Mad_Hatter"><![CDATA[{colour_start|pink}疯帽客的高礼帽{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Mad_Hatter_T"><![CDATA[疯帽客的高礼帽]]></entry>
+      
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Mad_Hatter_D_1"><![CDATA[闪避时：这件饰品对{colour_start|mark}标记{colour_end}的暴击率+2%%/伤害+5%%，被命中后失去加成]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Mad_Hatter_H_1"><![CDATA[被命中时：这件饰品的闪避+10，闪避后失去加成]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Mad_Hatter_D_2"><![CDATA[闪避时：{colour_start|mark}标记{colour_end}攻击者并赋予“谋杀时间”效果，自身立即再次行动]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Murdered_Time"><![CDATA[{colour_start|murdered_time}谋杀时间{colour_end}：解除被守护/-25%%防御/-25闪避/+25%%受到的伤害(行动结束后失效)]]></entry>
+      
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Mad_Hatter_1"><![CDATA[{colour_start|beige}“我和时间在三月份吵了架。”{colour_end}]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Mad_Hatter_2"><![CDATA[{colour_start|beige}“我疯了吗？” “恐怕是的。”{colour_end}]]></entry>
+    
+    </language>
+
+    <language id="tchinese">
+
+    <!--buff-->
+
+      <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}流血{colour_end}效果]]></entry>
+      <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}腐蝕{colour_end}效果]]></entry>
+      <entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% {colour_start|healhp}癒合{colour_end}效果]]></entry>
+      <entry id="buff_stat_tooltip_hp_heal_dot_amount_received_percent"><![CDATA[%+d%% 所受{colour_start|healhp}癒合{colour_end}效果]]></entry>
+      <entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[無視潛行]]></entry>
+      <entry id="buff_stat_tooltip_ignore_guard"><![CDATA[無視守護]]></entry>
+      <entry id="buff_stat_tooltip_ignore_protection"><![CDATA[%+d%%穿甲]]></entry>
+
+    <!--trinket-->
+      
+      <entry id="trinket_rarity_Wonderland"><![CDATA[{colour_start|wonderland_rarity}仙境{colour_end}]]></entry>
+
+      <entry id="effect_tooltip_this_trinket"><![CDATA[這件飾品：]]></entry>
+      <entry id="trinket_trigger_limit"><![CDATA[觸發次數：%d
+      ]]></entry>
+      <entry id="effect_trigger_limit_set"><![CDATA[觸發次數變為%d
+      ]]></entry>
+      <entry id="effect_trigger_limit_increase"><![CDATA[觸發次數+%d~%d
+      ]]></entry>
+      <entry id="effect_trigger_limit_decrease"><![CDATA[觸發次數-%d~%d
+      ]]></entry>
+      <entry id="str_trinket_transform_on_trigger_limit_exhausted"><![CDATA[觸發次數耗盡時：轉變為%s]]></entry>
+      
+      <entry id="trinket_attack_skill_additional_effects"><![CDATA[攻擊時：]]></entry>
+      <entry id="trinket_attack_skill_additional_effects_hit_trigger_effect"><![CDATA[攻擊命中時：]]></entry>
+      <entry id="trinket_attack_skill_additional_effects_miss_trigger_effect"><![CDATA[攻擊未命中時：]]></entry>
+      <entry id="trinket_attack_skill_additional_effects_hit_miss_trigger_effect"><![CDATA[攻擊時：]]></entry>
+
+      <entry id="trinket_friendly_skill_additional_effects"><![CDATA[友方技能：]]></entry>
+      <entry id="trinket_friendly_skill_additional_effects_trigger_effect"><![CDATA[友方技能：]]></entry>
+
+      <entry id="trinket_was_hit_additional_effects"><![CDATA[被命中時：]]></entry>
+      <entry id="trinket_was_hit_additional_effects_trigger_effect"><![CDATA[被命中時：]]></entry>
+      
+      <entry id="trinket_on_dodge_additional_effects"><![CDATA[閃避時：]]></entry>
+      <entry id="trinket_on_dodge_additional_effects_trigger_effect"><![CDATA[閃避時：]]></entry>
+
+      <entry id="trinket_turn_end_additional_effects_hit"><![CDATA[自身行動結束時：]]></entry>
+      <entry id="trinket_turn_end_additional_effects_hit_trigger_effect"><![CDATA[自身行動結束時：]]></entry>
+      <entry id="trinket_turn_end_additional_effects_miss"><![CDATA[自身行動結束時：]]></entry>
+      <entry id="trinket_turn_end_additional_effects_miss_trigger_effect"><![CDATA[自身行動結束時：]]></entry>
+      <entry id="trinket_turn_end_additional_effects_hit_miss"><![CDATA[自身行動結束時：]]></entry>
+      <entry id="trinket_turn_end_additional_effects_hit_miss_trigger_effect"><![CDATA[自身行動結束時：]]></entry>
+
+      <entry id="trinket_battle_finished_successfully_additional_effects"><![CDATA[戰鬥勝利時：]]></entry>
+      <entry id="trinket_battle_finished_successfully_additional_effects_trigger_effect"><![CDATA[戰鬥勝利時：]]></entry>
+
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Trigger"><![CDATA[
+      {colour_start|warning}不受防止消耗觸發次數的飾品影響{colour_end}]]></entry>
+
+
+
+      <entry id="str_inventory_title_trinketWonderland_Alice"><![CDATA[千分之一的愛麗絲]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Alice"><![CDATA[{colour_start|white}千分之一的愛麗絲{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Alice"><![CDATA[{colour_start|pink}千分之一的愛麗絲{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Alice"><![CDATA[{colour_start|sky_blue}千分之一的愛麗絲{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Alice"><![CDATA[{colour_start|beige}千分之一的愛麗絲{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Alice_T"><![CDATA[千分之一的愛麗絲]]></entry>
+      
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Alice_1"><![CDATA[{colour_start|beige}“這次的愛麗絲會是誰呢？”{colour_end}
+      {colour_start|gray}(自身在一次行動後獲得隨機效果){colour_end}]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Alice_2"><![CDATA[{colour_start|beige}“這次的愛麗絲已然定下”{colour_end}]]></entry>
+
+
+
+      <entry id="str_inventory_title_trinketWonderland_March_Hare"><![CDATA[三月兔的懷錶]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_March_Hare"><![CDATA[{colour_start|white}三月兔的懷錶{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_March_Hare"><![CDATA[{colour_start|pink}三月兔的懷錶{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_March_Hare"><![CDATA[{colour_start|sky_blue}三月兔的懷錶{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_March_Hare"><![CDATA[{colour_start|beige}三月兔的懷錶{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_March_Hare_T1"><![CDATA[{colour_start|march_hare_T1}三月兔的懷錶{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_March_Hare_T2"><![CDATA[{colour_start|march_hare_T2}三月兔的懷錶{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_March_Hare_T3"><![CDATA[{colour_start|march_hare_T3}三月兔的懷錶{colour_end}]]></entry>
+      
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_March_Hare_0"><![CDATA[自身行動結束後+6壓力並再次行動]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_March_Hare_1"><![CDATA[{colour_start|beige}“滴答滴答——”{colour_end}]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_March_Hare_2"><![CDATA[{colour_start|beige}“哎呀！哎呀！”{colour_end}]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_March_Hare_3"><![CDATA[{colour_start|beige}“要遲到了！”{colour_end}]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_March_Hare_4"><![CDATA[{colour_start|beige}“時間到！”{colour_end}]]></entry>
+
+
+
+      <entry id="str_inventory_title_trinketWonderland_Caterpillar_1"><![CDATA[{colour_start|caterpillar_1}智蟲的{colour_end}{colour_start|caterpillar_2}水菸斗{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Caterpillar_2"><![CDATA[{colour_start|caterpillar_2}智蟲的{colour_end}{colour_start|caterpillar_3}水菸斗{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Caterpillar_3"><![CDATA[{colour_start|caterpillar_3}智蟲的{colour_end}{colour_start|caterpillar_4}水菸斗{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Caterpillar_4"><![CDATA[{colour_start|caterpillar_4}智蟲的{colour_end}{colour_start|caterpillar_1}水菸斗{colour_end}]]></entry>
+      
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Caterpillar_B"><![CDATA[{colour_start|caterpillar_1}振奮菸霧{colour_end}：友方技能{colour_start|buff}增益我方隊伍{colour_end}：+7精準/+7閃避/+1速度]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Caterpillar_Y"><![CDATA[{colour_start|caterpillar_2}迷幻菸霧{colour_end}：攻擊技能{colour_start|debuff}減益敵方隊伍{colour_end}：-7精準/攻擊後自身被眩暈與擾亂(1次)]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Caterpillar_G"><![CDATA[{colour_start|caterpillar_3}療癒菸霧{colour_end}：友方技能{colour_start|buff}增益我方隊伍{colour_end}：-4壓力/2{colour_start|healhp}癒合{colour_end}]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Caterpillar_P"><![CDATA[{colour_start|caterpillar_4}虛弱菸霧{colour_end}：攻擊技能{colour_start|debuff}減益敵方隊伍{colour_end}：-7%%傷害/-1速度/攻擊後自身+7%%受到的傷害]]></entry>
+
+      <entry id="buff_tooltip_Caterpillar_Y_trigger"><![CDATA[攻擊後自身被{colour_start|stun}眩暈{colour_end}與{colour_start|move}擾亂{colour_end}(1次)]]></entry>
+      <entry id="buff_tooltip_Caterpillar_P_trigger"><![CDATA[攻擊後自身+7%%受到的傷害]]></entry>
+      
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Caterpillar_1"><![CDATA[{colour_start|beige}“你認為你已經變了，是嗎？”{colour_end}]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Caterpillar_2"><![CDATA[{colour_start|beige}“不久後你會習慣的。”{colour_end}]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Caterpillar_3"><![CDATA[{colour_start|beige}“你忘了些什么？”{colour_end}]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Caterpillar_4"><![CDATA[{colour_start|beige}“你是誰？”{colour_end}]]></entry>
+
+
+
+      <entry id="str_inventory_title_trinketWonderland_Mad_Hatter"><![CDATA[瘋帽客的高禮帽]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Mad_Hatter"><![CDATA[{colour_start|pink}瘋帽客的高禮帽{colour_end}]]></entry>
+      <entry id="str_inventory_title_trinketWonderland_Mad_Hatter_T"><![CDATA[瘋帽客的高禮帽]]></entry>
+      
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Mad_Hatter_D_1"><![CDATA[閃避時：這件飾品對{colour_start|mark}標記{colour_end}的暴擊率+2%%/傷害+5%%，被命中後失去加成]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Mad_Hatter_H_1"><![CDATA[被命中時：這件飾品的閃避+10，閃避後失去加成]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Mad_Hatter_D_2"><![CDATA[閃避時：{colour_start|mark}標記{colour_end}攻擊者並賦予“謀殺時間”效果，自身立即再次行動]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Murdered_Time"><![CDATA[{colour_start|murdered_time}謀殺時間{colour_end}：解除被守護/-25%%防禦/-25閃避/+25%%受到的傷害(行動結束後失效)]]></entry>
+      
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Mad_Hatter_1"><![CDATA[{colour_start|beige}“我和時間在三月份吵了架。”{colour_end}]]></entry>
+      <entry id="buff_stat_tooltip_upgrade_discount_Wonderland_Mad_Hatter_2"><![CDATA[{colour_start|beige}“我瘋了嗎？” “恐怕是的。”{colour_end}]]></entry>
+    
+    </language>
+	
+</root>	

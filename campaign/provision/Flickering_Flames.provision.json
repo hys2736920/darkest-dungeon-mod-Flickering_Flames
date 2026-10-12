@@ -1,0 +1,22 @@
+{
+   
+    "default_store_inventory_item_lists":
+    [
+        [ ],
+        [
+            { "type": "supply", "id": "hurricane_lamp", "amount": 6 }
+        ],
+        [
+            { "type": "supply", "id": "hurricane_lamp", "amount": 8 }
+        ],
+        [
+            { "type": "supply", "id": "hurricane_lamp", "amount": 12 }
+        ],
+        [
+            { "type": "supply", "id": "hurricane_lamp", "amount": 14 }
+        ],
+        [
+            { "type": "supply", "id": "hurricane_lamp", "amount": 12 }
+        ]
+    ]
+}

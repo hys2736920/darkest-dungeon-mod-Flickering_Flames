@@ -1,0 +1,23 @@
+//燈籠
+effect: .name "hurricane_lamp" .target "global" .curio_result_type "neutral" .chance 100% .buff_ids "flickering_flames_hurricane_lamp_1" .on_hit true .on_miss true .use_item_type supply .use_item_id "hurricane_lamp_2" .queue true .apply_once true
+effect: .name "firmament_lamp" .target "target_group" .curio_result_type "positive" .chance 100% .torch_increase 999 .buff_ids "T_Dawn_of_the_Firmament" "flickering_flames_Firmament_1_A" "flickering_flames_Firmament_1_B" "flickering_flames_Firmament_2" "flickering_flames_Firmament_3" "flickering_flames_Firmament_4" "flickering_flames_Firmament_5" "flickering_flames_Firmament_6" .buff_source_type bsrc_curio .on_hit true .on_miss true .use_item_type supply .use_item_id "Get_Stress" .queue true .apply_once true
+effect: .name "abyssal_lamp" .target "target_group" .curio_result_type "positive" .chance 100% .torch_decrease 999 .disease "FF_Gaze_of_Abyss" .buff_ids "T_Darkness_of_Abyss" "flickering_flames_Abyss_1_A" "flickering_flames_Abyss_1_B" "flickering_flames_Abyss_2" "flickering_flames_Abyss_3" "flickering_flames_Abyss_4" "flickering_flames_Abyss_5" "flickering_flames_Abyss_6" .buff_source_type bsrc_curio .on_hit true .on_miss true .use_item_type supply .use_item_id "Get_Stress" .queue true .apply_once true
+
+//effect: .name "abyssal_lamp" .target "target_group" .curio_result_type "positive" .chance 100% .torch_decrease 999 .disease "FF_Gaze_of_Abyss" .buff_ids "T_Darkness_of_Abyss" "flickering_flames_Abyss_1_A" "flickering_flames_Abyss_1_B" "flickering_flames_Abyss_2" "flickering_flames_Abyss_3" "flickering_flames_Abyss_4" "flickering_flames_Abyss_5" "flickering_flames_Abyss_6" .buff_source_type bsrc_curio .on_hit true .on_miss true .queue true .apply_once true
+
+
+
+//因果之契
+effect: .name "conflux_pact" .target "target_group_other" .curio_result_type "neutral" .chance 100% .steal_buff_source_type bsrc_curio .on_hit true .on_miss true .queue true .apply_once true
+effect: .name "transfer_pact" .target "target_enemy_random" .curio_result_type "neutral" .chance 100% .swap_source_and_target true .steal_buff_source_type bsrc_curio .on_hit true .on_miss true .queue true .apply_once true
+
+
+
+//遺落的信封(老路保底解折磨)
+effect: .name "left_behind_letters" .target "target_group" .curio_result_type "positive" .chance 100% .healstress 999 .heal_percent 50% .on_hit true .on_miss false .queue true .apply_once true
+
+
+
+//假物品
+effect: .name "hurricane_lamp_2" .target "target_group" .curio_result_type "neutral" .chance 100% .buff_ids "T_light_speed_slow" "flickering_flames_hurricane_lamp_2" "flickering_flames_hurricane_lamp_3" .on_hit true .on_miss true .use_item_type supply .use_item_id "hurricane_lamp_3" .queue true .apply_once true
+effect: .name "hurricane_lamp_3" .target "target_enemy_group" .curio_result_type "neutral" .chance 100% .buff_ids "flickering_flames_hurricane_lamp_2" "flickering_flames_hurricane_lamp_3" .on_hit true .on_miss true .queue true .apply_once true

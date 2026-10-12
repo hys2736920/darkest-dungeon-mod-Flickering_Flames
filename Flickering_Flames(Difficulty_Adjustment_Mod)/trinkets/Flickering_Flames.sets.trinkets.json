@@ -1,0 +1,14 @@
+{
+   "sets":
+   [
+      {
+         "id" : "FF_broken_lullaby",
+         "buffs" : 
+         [
+            "FF_broken_lullaby_aff",
+            "FF_broken_lullaby_stress_resist",
+            "FF_broken_lullaby_hot_buff"
+         ]
+      }
+   ]
+}

@@ -1,0 +1,199 @@
+{
+    "monster_brains": [
+        {
+            "id": "abyss_shambler_tentacle",
+            "skill_cooldowns": [],
+            "skill_selection_desires": [
+                {
+				"type": "specific_skill",
+				"data": {
+					"base_chance": 1.0,
+					"combat_skill_id": "tentacle_slap"
+				    }
+			    }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": false,
+                        "is_friendly_target_desire": true
+                    }
+                }, 
+                 {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": false
+                    }
+                }
+            ],
+            "bonus_initiative_desires": []
+        },
+
+
+        
+        {
+            "id": "abyss_shambler",
+            "skill_cooldowns": [
+				{
+					"combat_skill_id": "first_round_shuffle",
+					"amount": 99
+				}
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "shamble_fwd"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "shamble_back"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "shambler_howl",
+                        "monsters_size_min": 3,
+                        "monsters_size_max": 4
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": 
+            [
+                {
+                    "type": "guaranteed",
+                    "data": {
+                        "is_round_start": true,
+                        "is_round_in_progress": false,
+                        "is_round_finish": false,
+                        "is_pre_turn": true,
+                        "is_post_turn": false,
+                        "is_cooldown_enabled": true,
+                        "combat_skill_id_override": "first_round_shuffle"
+                    }
+                },
+                {
+                    "type": "death",
+                    "data": {
+                        "is_round_start": false,
+                        "is_round_in_progress": true,
+                        "is_round_finish": true,
+                        "is_pre_turn": false,
+                        "is_post_turn": true,
+                        "combat_skill_id_override": "gift_from_abyss"
+                    }
+                }
+             ]
+        },
+        {
+            "id": "abyss_shambler_B",
+            "skill_cooldowns": [
+				{
+					"combat_skill_id": "first_round_shuffle",
+					"amount": 10
+				},
+                {
+					"combat_skill_id": "phagocytosis",
+					"amount": 5
+				}
+            ],
+            "skill_selection_desires": [
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "shamble_fwd"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "shamble_back"
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 1.0,
+                        "combat_skill_id": "shambler_howl",
+                        "monsters_size_min": 3,
+                        "monsters_size_max": 4
+                    }
+                },
+                {
+                    "type": "specific_skill",
+                    "data": {
+                        "base_chance": 999.0,
+                        "combat_skill_id": "phagocytosis",
+						"performer_health_ratio_max": 0.5
+                    }
+                }
+            ],
+            "target_selection_desires": [
+                {
+                    "type": "random_target",
+                    "data": {
+                        "base_chance": 1.0,
+                        "specific_combat_skill_id": "",
+                        "is_exclusive_desire": false,
+                        "is_enemy_target_desire": true,
+                        "is_friendly_target_desire": true
+                    }
+                }
+            ],
+            "bonus_initiative_desires": 
+            [
+                {
+                    "type": "guaranteed",
+                    "data": {
+                        "is_round_start": true,
+                        "is_round_in_progress": false,
+                        "is_round_finish": false,
+                        "is_pre_turn": true,
+                        "is_post_turn": false,
+                        "is_cooldown_enabled": true,
+                        "combat_skill_id_override": "first_round_shuffle"
+                    }
+                },
+                {
+                    "type": "death",
+                    "data": {
+                        "is_round_start": false,
+                        "is_round_in_progress": true,
+                        "is_round_finish": true,
+                        "is_pre_turn": false,
+                        "is_post_turn": true,
+                        "combat_skill_id_override": "gift_from_abyss"
+                    }
+                }
+             ]
+        }
+    ]
+}

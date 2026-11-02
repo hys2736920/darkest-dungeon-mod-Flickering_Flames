@@ -1,0 +1,135 @@
+
+-------------------------------------------------------------------------------
+Parsing project file - D:\Steam\steamapps\common\DarkestDungeon\mods\Flickering_Flames(Difficulty_Adjustment_Mod)1.1\project.xml
+Mod Data Directory = D:/Steam/steamapps/common/DarkestDungeon/mods/Flickering_Flames(Difficulty_Adjustment_Mod)1.1/
+
+-------------------------------------------------------------------------------
+Processing Map Files files...
+
+-------------------------------------------------------------------------------
+Running Localization...
+Parsing localization/Flickering_Flames.string_table.xml
+Parsing localization/Wonderland.string_table.xml
+
+Building Languages
+Exporting .loc2 files
+
+-------------------------------------------------------------------------------
+Searching for preview icon file D:/Steam/steamapps/common/DarkestDungeon/mods/Flickering_Flames(Difficulty_Adjustment_Mod)1.1/preview_icon.png...FOUND!
+<UploadMode> - Set to direct_upload
+
+
+-------------------------------------------------------------------------------
+Modded files...
+
+monsters/shambler/shambler_W/shambler_W.art.darkest
+monsters/shambler/shambler_W/shambler_W.info.darkest
+monsters/shambler/shambler_W/tint.png
+monsters/shambler/shambler_X/shambler_X.art.darkest
+monsters/shambler/shambler_X/shambler_X.info.darkest
+monsters/shambler/shambler_X/tint.png
+monsters/shambler/shambler_Y/shambler_Y.art.darkest
+monsters/shambler/shambler_Y/shambler_Y.info.darkest
+monsters/shambler/shambler_Y/tint.png
+monsters/shambler/shambler_Z/shambler_Z.art.darkest
+monsters/shambler/shambler_Z/shambler_Z.info.darkest
+monsters/shambler/shambler_Z/tint.png
+monsters/shambler_tentacle/shambler_tentacle_W/shambler_tentacle_W.art.darkest
+monsters/shambler_tentacle/shambler_tentacle_W/shambler_tentacle_W.info.darkest
+monsters/shambler_tentacle/shambler_tentacle_W/tint.png
+monsters/shambler_tentacle/shambler_tentacle_X/shambler_tentacle_X.art.darkest
+monsters/shambler_tentacle/shambler_tentacle_X/shambler_tentacle_X.info.darkest
+monsters/shambler_tentacle/shambler_tentacle_X/tint.png
+monsters/shambler_tentacle/shambler_tentacle_Y/shambler_tentacle_Y.art.darkest
+monsters/shambler_tentacle/shambler_tentacle_Y/shambler_tentacle_Y.info.darkest
+monsters/shambler_tentacle/shambler_tentacle_Y/tint.png
+monsters/shambler_tentacle/shambler_tentacle_Z/shambler_tentacle_Z.art.darkest
+monsters/shambler_tentacle/shambler_tentacle_Z/shambler_tentacle_Z.info.darkest
+monsters/shambler_tentacle/shambler_tentacle_Z/tint.png
+monsters/shambler_tentacle/ui/shambler_tentacle.tray_battle_modifier_buff.png
+panels/icons_equip/estate/inv_estate+abyssal_lamp.png
+panels/icons_equip/estate/inv_estate+conflux_pact.png
+panels/icons_equip/estate/inv_estate+firmament_lamp.png
+panels/icons_equip/estate/inv_estate+left_behind_letters.png
+panels/icons_equip/estate/inv_estate+transfer_pact.png
+panels/icons_equip/gem/inv_gem+abyss_amethyst.png
+panels/icons_equip/supply/inv_supply+hurricane_lamp.png
+panels/icons_equip/trinket/inv_trinket+Wonderland_Alice.png
+panels/icons_equip/trinket/inv_trinket+Wonderland_Alice_T.png
+panels/icons_equip/trinket/inv_trinket+Wonderland_Caterpillar_1.png
+panels/icons_equip/trinket/inv_trinket+Wonderland_Caterpillar_2.png
+panels/icons_equip/trinket/inv_trinket+Wonderland_Caterpillar_3.png
+panels/icons_equip/trinket/inv_trinket+Wonderland_Caterpillar_4.png
+panels/icons_equip/trinket/inv_trinket+Wonderland_Mad_Hatter.png
+panels/icons_equip/trinket/inv_trinket+Wonderland_Mad_Hatter_T.png
+panels/icons_equip/trinket/inv_trinket+Wonderland_March_Hare.png
+panels/icons_equip/trinket/inv_trinket+Wonderland_March_Hare_T1.png
+panels/icons_equip/trinket/inv_trinket+Wonderland_March_Hare_T2.png
+panels/icons_equip/trinket/inv_trinket+Wonderland_March_Hare_T3.png
+panels/icons_equip/trinket/inv_trinket+abyss_candle.png
+panels/icons_equip/trinket/inv_trinket+abyss_compass.png
+panels/icons_equip/trinket/inv_trinket+abyss_dissonant_box.png
+panels/icons_equip/trinket/inv_trinket+abyss_musical_sheet.png
+panels/icons_equip/trinket/inv_trinket+abyss_sedative.png
+panels/icons_equip/trinket/rarity_FF_abyss.png
+panels/icons_equip/trinket/rarity_Wonderland.png
+campaign/provision/Flickering_Flames.provision.json
+dungeons/_shared/Flickering_Flames.conditional.1.mash.darkest
+dungeons/_shared/Flickering_Flames.conditional.2.mash.darkest
+dungeons/_shared/Flickering_Flames.conditional.3.mash.darkest
+dungeons/_shared/Flickering_Flames.conditional.4.mash.darkest
+dungeons/_shared/Flickering_Flames.conditional.5.mash.darkest
+dungeons/_shared/Flickering_Flames.conditional.6.mash.darkest
+dungeons/_shared/Flickering_Flames.conditional.7.mash.darkest
+raid/ai/Flickering_Flames.monster_brains.json
+scripts/starting_save/persist.raid.json
+scripts/starting_save/persist.roster.json
+shared/buffs/Flickering_Flames.buffs.json
+shared/buffs/Flickering_Flames_Tooltips.buffs.json
+shared/buffs/Flickering_Flames_monster.buffs.json
+shared/buffs/Flickering_Flames_quirk.buffs.json
+shared/buffs/Flickering_Flames_trinkets.buffs.json
+shared/buffs/Wonderland_Tooltips.buffs.json
+shared/buffs/Wonderland_trinkets.buffs.json
+shared/quirk/Flickering_Flames.quirk_library.json
+_README/Info_Doc_en.docx
+_README/Trinket_List_Abyss_en.png
+_README/Trinket_List_Wonderland_en.png
+_README/Trinket_List_en.xlsx
+audio/Flickering_Flames.campaign.guid_overrides.json
+colours/Flickering_Flames.colours.darkest
+effects/Flickering_Flames.effects.darkest
+effects/Flickering_Flames_item.effects.darkest
+effects/Flickering_Flames_monster.effects.darkest
+effects/Flickering_Flames_trinket.effects.darkest
+effects/Wonderland_trinket.effects.darkest
+inventory/Flickering_Flames.estate.inventory.items.darkest
+inventory/Flickering_Flames.gem.inventory.items.darkest
+inventory/Flickering_Flames.supply.inventory.items.darkest
+localization/3817826867_english.loc2
+localization/3817826867_schinese.loc2
+localization/3817826867_tchinese.loc2
+localization/Flickering_Flames.string_table.xml
+localization/Wonderland.string_table.xml
+loot/Flickering_Flames.loot.json
+loot/Wonderland.loot.json
+loot/darkness_overrides.loot.json
+scripts/FF_Courtyard_Plus_Compatibility.raid_settings.json
+scripts/FF_Farmstead_Plus_Compatibility.raid_settings.json
+scripts/FF_Pet_Cemetery_Compatibility.raid_settings.json
+scripts/FF_Sinister_Circus_Compatibility.raid_settings.json
+scripts/FF_Sunward_Isles_Compatibility.raid_settings.json
+scripts/FF_Vermintide_Compatibility.raid_settings.json
+scripts/Flickering_Flames.raid_settings.json
+shared/Flickering_Flames_rules.json
+trinkets/Flickering_Flames.entries.trinkets.json
+trinkets/Flickering_Flames.rarities.trinkets.json
+trinkets/Flickering_Flames.sets.trinkets.json
+trinkets/Wonderland.entries.trinkets.json
+trinkets/Wonderland.rarities.trinkets.json
+preview_icon.png
+project.xml
+
+Submitting.................................................................................................................................Submitted.
+Saving project file D:\Steam\steamapps\common\DarkestDungeon\mods\Flickering_Flames(Difficulty_Adjustment_Mod)1.1\project.xml
+

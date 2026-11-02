@@ -1,0 +1,1362 @@
+{
+   "buffs":
+   [
+      {
+         "id" : "flickering_flames_monster_received_heal",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.5,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_monster_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.2,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_monster_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.2,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_monster_stress_DMG",
+         "stat_type" : "stress_dmg_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.2,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_monster_def",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.2,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_monster_prot",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.25,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_monster_crit",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.2,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      
+      {
+         "id" : "FF_cove_monster",
+         "stat_type" : "",
+         "stat_sub_type" : "",
+         "amount" : 0.0,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : true,
+         "attack_additional_effect_ids" : [ "Area_Effect_Cove_1", "Area_Effect_Cove_2" ],
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "cove"
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "FF_cove_monster_heal_down",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.05,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+
+      {
+         "id" : "FF_crypts_monster",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.2,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : true,
+         "attack_additional_effect_ids" : [ "Area_Effect_Ruins_1" ],
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "crypts"
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "FF_crypts_monster_HP_down",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : -0.04,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      
+      {
+         "id" : "FF_warrens_monster",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 0.25,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : true,
+         "attack_additional_effect_ids" : [ "Area_Effect_Warrens_1" ],
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "warrens"
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "FF_warrens_monster_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.1,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_warrens_monster_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.1,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_warrens_monster_SPD",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 1,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      
+      {
+         "id" : "FF_weald_monster",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : 0.25,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : true,
+         "attack_additional_effect_ids" : [ "Area_Effect_Weald_2" ],
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "weald"
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "FF_weald_monster_once_heal",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.5,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : true,
+         "attack_additional_effect_ids" : [ "Area_Effect_Weald_1" ],
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "weald"
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "FF_weald_monster_once_heal_clear",
+         "stat_type" : "",
+         "stat_sub_type" : "",
+         "amount" : 0.0,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "clear_buffs_on_rule_active" : [ "FF_weald_monster_once_heal" ],
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_weald_monster_prot_down",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : -0.05,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "poisoned"
+         }
+      },
+      {
+         "id" : "FF_weald_monster_DMG_received",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.05,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "is_actor_status",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "tagged"
+         }
+      },
+
+      {
+         "id" : "FF_courtyard_monster",
+         "stat_type" : "",
+         "stat_sub_type" : "",
+         "amount" : 0.0,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : true,
+         "attack_additional_effect_ids" : [ "Area_Effect_Courtyard_1", "Area_Effect_Courtyard_2", "Area_Effect_Courtyard_3" ],
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "courtyard"
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "FF_courtyard_monster_DMGL",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.05,
+         "duration_type" : "after_round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+      {
+         "id" : "FF_courtyard_monster_DMGH",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.05,
+         "duration_type" : "after_round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+      {
+         "id" : "FF_courtyard_monster_ACC",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.03,
+         "duration_type" : "after_round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "actorStatus",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "bleeding"
+         }
+      },
+
+      {
+         "id" : "FF_farmstead_monster",
+         "stat_type" : "hp_dot_poison_amount_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.33,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : true,
+         "attack_additional_effect_ids" : [ "Area_Effect_Farmstead_1" ],
+         "rule_type" : "in_dungeon",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : "farmstead"
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "FF_farmstead_monster_poison_amount",
+         "stat_type" : "hp_dot_poison_amount_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.33,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "clear_buffs_on_rule_active" : [ "FF_farmstead_monster" ],
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false
+      },
+      {
+         "id" : "FF_farmstead_monster_dotStress",
+         "stat_type" : "",
+         "stat_sub_type" : "",
+         "amount" : 0.0,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "attack_additional_effect_ids" : [ "Area_Effect_Farmstead_2" ],
+         "rule_type" : "target_hpbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0.5,
+            "string" : ""
+         }
+      },
+
+
+
+      {
+         "id" : "flickering_flames_clear_buff",
+         "stat_type" : "",
+         "stat_sub_type" : "",
+         "amount" : 0.0,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "clear_buffs_on_rule_active" : [
+            "T_Spark_of_Life", "flickering_flames_Life_1", "flickering_flames_Life_2", "flickering_flames_Life_3",
+            "T_Candlelight_of_Hope", "flickering_flames_Hope_1", "flickering_flames_Hope_2", "flickering_flames_Hope_3", "flickering_flames_Hope_4",
+            "T_Lamplight_of_Guidance", "flickering_flames_Guidance_1", "flickering_flames_Guidance_2", "flickering_flames_Guidance_3", "flickering_flames_Guidance_4",
+            "T_Dawn_of_the_Firmament", "flickering_flames_Firmament_1_A", "flickering_flames_Firmament_1_B", "flickering_flames_Firmament_2", "flickering_flames_Firmament_3", "flickering_flames_Firmament_4", "flickering_flames_Firmament_5", "flickering_flames_Firmament_6",
+            "T_Shadowflame_of_Unease", "flickering_flames_Unease_1", "flickering_flames_Unease_2", "flickering_flames_Unease_3",
+            "T_Glare_of_Distortion", "flickering_flames_Distortion_1", "flickering_flames_Distortion_2", "flickering_flames_Distortion_3",
+            "T_Deathfire_of_Nightmare", "flickering_flames_Nightmare_1", "flickering_flames_Nightmare_2", "flickering_flames_Nightmare_3", "flickering_flames_Nightmare_4", "flickering_flames_Nightmare_5",
+            "T_Darkness_of_Abyss", "flickering_flames_Abyss_1_A", "flickering_flames_Abyss_1_B", "flickering_flames_Abyss_2", "flickering_flames_Abyss_3", "flickering_flames_Abyss_4", "flickering_flames_Abyss_5", "flickering_flames_Abyss_6",
+            "T_Fury_of_Brutality", "flickering_flames_Brutality_1_A", "flickering_flames_Brutality_1_B", "flickering_flames_Brutality_2", "flickering_flames_Brutality_3", "flickering_flames_Brutality_4", "flickering_flames_Brutality_5",
+            "T_Greenflame_of_Decay", "flickering_flames_Decay_1", "flickering_flames_Decay_2", "flickering_flames_Decay_3",
+            "T_Redflame_of_Blood", "flickering_flames_Blood_1", "flickering_flames_Blood_2", "flickering_flames_Blood_3",
+            "T_Frostfire_of_Sloth", "flickering_flames_Sloth_1", "flickering_flames_Sloth_2", "flickering_flames_Sloth_3", "flickering_flames_Sloth_4",
+            "flickering_flames_clear_buff"
+         ],
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+
+      {
+         "id" : "flickering_flames_Life_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : 0.33,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Life_2",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.2,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Life_3",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.2,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+
+      {
+         "id" : "flickering_flames_Hope_1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.2,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Hope_2",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.2,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Hope_3",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Hope_4",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "protection_rating",
+         "amount" : 0.05,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+
+      {
+         "id" : "flickering_flames_Guidance_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.08,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Guidance_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.05,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Guidance_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.05,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Guidance_4",
+         "stat_type" : "scouting_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.1,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+
+      {
+         "id" : "flickering_flames_Firmament_1_A",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.2,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Firmament_1_B",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.2,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Firmament_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 3,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Firmament_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.1,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Firmament_4",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : 9.99,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Firmament_5",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -2.0,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "virtued",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Firmament_6",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 4.0,
+         "duration_type" : "combat_end",
+         "duration" : 2,
+         "remove_if_not_active" : false,
+         "rule_type" : "afflicted",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      
+      {
+         "id" : "flickering_flames_Unease_1",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.2,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Unease_2",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.2,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Unease_3",
+         "stat_type" : "party_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.1,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      
+      {
+         "id" : "flickering_flames_Distortion_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : -0.05,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Distortion_2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : -0.2,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Distortion_3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : -0.2,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      
+      {
+         "id" : "flickering_flames_Nightmare_1",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.1,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Nightmare_2",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.1,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Nightmare_3",
+         "stat_type" : "party_surprise_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.1,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Nightmare_4",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.15,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Nightmare_5",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "death_blow",
+         "amount" : -0.15,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+
+      {
+         "id" : "flickering_flames_Abyss_1_A",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : -0.2,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Abyss_1_B",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : -0.2,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Abyss_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -3,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Abyss_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.08,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Abyss_4",
+         "stat_type" : "resolve_check_percent",
+         "stat_sub_type" : "",
+         "amount" : -9.99,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Abyss_5",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -2.0,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "afflicted",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Abyss_6",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -2.0,
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "afflicted",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+
+      {
+         "id" : "flickering_flames_Brutality_1_A",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.25,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Brutality_1_B",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.25,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Brutality_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 2,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Brutality_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "crit_chance",
+         "amount" : 0.15,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Brutality_4",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Brutality_5",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.15,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      
+      {
+         "id" : "flickering_flames_Decay_1",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.2,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Decay_2",
+         "stat_type" : "hp_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.2,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Decay_3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : -0.2,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      
+      {
+         "id" : "flickering_flames_Blood_1",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.2,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Blood_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : -0.33,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Blood_3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : -0.2,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      
+      {
+         "id" : "flickering_flames_Sloth_1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.33,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Sloth_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : -2,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Sloth_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.1,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_Sloth_4",
+         "stat_type" : "stress_heal_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.25,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "is_clear_debuff_valid" : false 
+      },
+
+      {
+         "id" : "flickering_flames_hurricane_lamp_1",
+         "stat_type" : "torchlight_burn_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.5,
+         "duration" : 8,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "force_positive" : true,
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_hurricane_lamp_2",
+         "stat_type" : "torch_increase_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.5,
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "force_positive" : true,
+         "is_clear_debuff_valid" : false 
+      },
+      {
+         "id" : "flickering_flames_hurricane_lamp_3",
+         "stat_type" : "torch_decrease_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.5,
+         "duration" : 4,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+         "force_positive" : true,
+         "is_clear_debuff_valid" : false 
+      }
+   ]
+}

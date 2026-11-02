@@ -1,0 +1,52 @@
+//初始化
+effect: .name "FF_Initial_HP" .target "performer" .curio_result_type "positive" .chance 100% .heal_percent 100% .can_crit_heal false .on_hit true .on_miss true .apply_once true .queue true
+
+
+
+//詞條
+effect: .name "FF_HP_Buff_1" .target "performer" .curio_result_type "positive" .chance 50% .buff_source_type bsrc_curio .buff_ids "FF_monster_HP_1" .on_hit true .on_miss true .apply_once true
+effect: .name "FF_HP_Buff_2" .target "performer" .curio_result_type "positive" .chance 40% .buff_source_type bsrc_curio .buff_ids "FF_monster_HP_2" .on_hit true .on_miss true .apply_once true
+effect: .name "FF_HP_Buff_3" .target "performer" .curio_result_type "positive" .chance 30% .buff_source_type bsrc_curio .buff_ids "FF_monster_HP_3" .on_hit true .on_miss true .apply_once true
+
+effect: .name "FF_SPD_Buff_1" .target "performer" .curio_result_type "positive" .chance 30% .buff_source_type bsrc_curio .buff_ids "FF_monster_SPD_1" .on_hit true .on_miss true .apply_once true
+effect: .name "FF_SPD_Buff_2" .target "performer" .curio_result_type "positive" .chance 20% .buff_source_type bsrc_curio .buff_ids "FF_monster_SPD_2" .on_hit true .on_miss true .apply_once true
+effect: .name "FF_SPD_Buff_3" .target "performer" .curio_result_type "positive" .chance 10% .buff_source_type bsrc_curio .buff_ids "FF_monster_SPD_3" .on_hit true .on_miss true .apply_once true
+
+effect: .name "FF_poison_chance" .target "performer" .curio_result_type "positive" .chance 30% .buff_source_type bsrc_curio .buff_ids "FF_monster_poison_chance" .on_hit true .on_miss true .apply_once true
+effect: .name "FF_bleed_chance" .target "performer" .curio_result_type "positive" .chance 20% .buff_source_type bsrc_curio .buff_ids "FF_monster_bleed_chance" .on_hit true .on_miss true .apply_once true
+effect: .name "FF_move_chance" .target "performer" .curio_result_type "positive" .chance 10% .buff_source_type bsrc_curio .buff_ids "FF_monster_move_chance" .on_hit true .on_miss true .apply_once true
+
+effect: .name "FF_stress_Buff_1" .target "performer" .curio_result_type "positive" .chance 30% .buff_source_type bsrc_curio .buff_ids "FF_monster_stress" .on_hit true .on_miss true .apply_once true
+effect: .name "FF_stress_Buff_2" .target "performer" .curio_result_type "positive" .chance 20% .buff_source_type bsrc_curio .buff_ids "FF_monster_stress" .on_hit true .on_miss true .apply_once true
+effect: .name "FF_stress_Buff_3" .target "performer" .curio_result_type "positive" .chance 10% .buff_source_type bsrc_curio .buff_ids "FF_monster_stress" .on_hit true .on_miss true .apply_once true
+
+effect: .name "FF_resist_stun" .target "performer" .curio_result_type "positive" .chance 40% .buff_source_type bsrc_curio .buff_ids "FF_monster_resist_stun" .on_hit true .on_miss true .apply_once true
+effect: .name "FF_resist_move" .target "performer" .curio_result_type "positive" .chance 40% .buff_source_type bsrc_curio .buff_ids "FF_monster_resist_move" .on_hit true .on_miss true .apply_once true
+effect: .name "FF_resist_debuff" .target "performer" .curio_result_type "positive" .chance 40% .buff_source_type bsrc_curio .buff_ids "FF_monster_resist_debuff" .on_hit true .on_miss true .apply_once true
+
+effect: .name "FF_resist_poison" .target "performer" .curio_result_type "positive" .chance 40% .buff_source_type bsrc_curio .buff_ids "FF_monster_resist_poison" .on_hit true .on_miss true .apply_once true
+effect: .name "FF_resist_bleed" .target "performer" .curio_result_type "positive" .chance 40% .buff_source_type bsrc_curio .buff_ids "FF_monster_resist_bleed" .on_hit true .on_miss true .apply_once true
+
+effect: .name "FF_dot_Heal_1" .target "performer" .curio_result_type "positive" .chance 60% .buff_source_type bsrc_curio .buff_duration_type combat_end .duration 1 .dotHpHeal 3 .on_hit true .on_miss true .apply_once true
+effect: .name "FF_dot_Heal_2" .target "performer" .curio_result_type "positive" .chance 60% .buff_source_type bsrc_curio .buff_duration_type combat_end .duration 1 .dotHpHeal 5 .on_hit true .on_miss true .apply_once true
+effect: .name "FF_dot_Heal_3" .target "performer" .curio_result_type "positive" .chance 60% .buff_source_type bsrc_curio .buff_duration_type combat_end .duration 1 .dotHpHeal 7 .on_hit true .on_miss true .apply_once true
+effect: .name "FF_dot_Heal_4" .target "performer" .curio_result_type "positive" .chance 60% .buff_source_type bsrc_curio .buff_duration_type combat_end .duration 1 .dotHpHeal 9 .on_hit true .on_miss true .apply_once true
+
+
+
+//深淵爬爬
+effect: .name "FF_shuffle_party_F" .target "target" .shuffleparty  .chance 500% .on_hit true .on_miss true .apply_once true .can_apply_on_death true
+
+effect: .name "FF_SummonTentacle_W" .target "performer" .chance 100%  .summon_count 2 .summon_can_spawn_loot true .summon_monsters shambler_tentacle_W .summon_chances 1.0 .on_hit true .on_miss true .apply_once true
+effect: .name "FF_SummonTentacle_X" .target "performer" .chance 100%  .summon_count 2 .summon_can_spawn_loot true .summon_monsters shambler_tentacle_X .summon_chances 1.0 .on_hit true .on_miss true .apply_once true
+effect: .name "FF_SummonTentacle_Y" .target "performer" .chance 100%  .summon_count 2 .summon_can_spawn_loot true .summon_monsters shambler_tentacle_Y .summon_chances 1.0 .on_hit true .on_miss true .apply_once true
+effect: .name "FF_SummonTentacle_Z" .target "performer" .chance 100%  .summon_count 2 .summon_can_spawn_loot true .summon_monsters shambler_tentacle_Z .summon_chances 1.0 .on_hit true .on_miss true .apply_once true
+
+effect: .name "FF_shuffle_phagocytosis" .target "target" .chance 500% .steal_buff_source_type bsrc_curio .on_hit true .on_miss true .apply_once true
+effect: .name "FF_shuffle_heal_percent" .target "performer" .chance 100% .heal_percent 5% .can_crit_heal false .on_hit true .on_miss true .apply_once true
+
+
+
+//結束給怪癖跟清注視
+effect: .name "Gift_from_Abyss" .target "target_group" .curio_result_type "positive" .chance 10000% .disease "FF_Gift_from_Abyss" .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "No_Longer_Staring" .target "target_group" .curio_result_type "positive" .chance 10000% .disease "FF_No_Longer_Staring" .on_hit true .on_miss true .apply_once true

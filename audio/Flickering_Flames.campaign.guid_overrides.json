@@ -1,0 +1,15 @@
+{
+    "event_guid_overrides":
+    [
+	
+        {"event_id": "event:/char/enemy/shambler_gift_from_abyss",                   "guid_override":"{69ce5e3b-fd94-4ec8-8e43-6a29dcfeb825}"},
+        {"event_id": "event:/char/enemy/shambler_gift_from_abyss_miss",                   "guid_override":"{69ce5e3b-fd94-4ec8-8e43-6a29dcfeb825}"},
+        
+        {"event_id": "event:/char/enemy/shambler_first_round_shuffle",                   "guid_override":"{0595aead-55fa-4bd2-8106-68ecd77f8034}"},
+        {"event_id": "event:/char/enemy/shambler_first_round_shuffle_miss",                   "guid_override":"{0595aead-55fa-4bd2-8106-68ecd77f8034}"},
+        
+        {"event_id": "event:/char/enemy/shambler_phagocytosis",                   "guid_override":"{d26e4893-b483-4572-a3de-bfcb0efc7f95}"},
+        {"event_id": "event:/char/enemy/shambler_phagocytosis_miss",                   "guid_override":"{aca6a8dd-8a51-4ab9-8d7c-f1b914f5c8bb}"}
+
+    ]
+}

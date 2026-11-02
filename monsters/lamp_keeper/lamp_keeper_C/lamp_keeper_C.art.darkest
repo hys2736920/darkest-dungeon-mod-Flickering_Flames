@@ -1,0 +1,8 @@
+commonfx: .deathfx death_medium
+skill: .id "spark_strike" .anim "Lamp_Keeper_SK1" .fx "" .targheadfx "Lamp_Keeper_SK1_target"
+skill: .id "flames_of_march" .anim "Lamp_Keeper_SK2" .fx "" .targchestfx "Lamp_Keeper_SK2_target"
+skill: .id "ominous_purple" .anim "Lamp_Keeper_SK3" .fx "" .targchestfx "stress_cloud" .target_area_pos_offset 150 0
+skill: .id "siphon_life_lamp" .anim "Lamp_Keeper_SK4" .fx "" .targchestfx "Lamp_Keeper_SK4_target" .target_area_pos_offset 0 0
+skill: .id "unclean_healing" .anim "Lamp_Keeper_SK5" .fx "" .targfx "Lamp_Keeper_SK5_target"
+
+riposte_skill: .id "lamp_keeper_riposte" .anim "defend"

@@ -1,0 +1,24 @@
+{
+    "event_guid_overrides":
+    [
+	
+        {"event_id": "event:/char/enemy/shambler_gift_from_abyss",                      "guid_override":"{69ce5e3b-fd94-4ec8-8e43-6a29dcfeb825}"},
+        {"event_id": "event:/char/enemy/shambler_gift_from_abyss_miss",                 "guid_override":"{69ce5e3b-fd94-4ec8-8e43-6a29dcfeb825}"},
+        {"event_id": "event:/char/enemy/shambler_first_round_shuffle",                  "guid_override":"{0595aead-55fa-4bd2-8106-68ecd77f8034}"},
+        {"event_id": "event:/char/enemy/shambler_first_round_shuffle_miss",             "guid_override":"{0595aead-55fa-4bd2-8106-68ecd77f8034}"},
+        {"event_id": "event:/char/enemy/shambler_phagocytosis",                         "guid_override":"{d26e4893-b483-4572-a3de-bfcb0efc7f95}"},
+        {"event_id": "event:/char/enemy/shambler_phagocytosis_miss",                    "guid_override":"{aca6a8dd-8a51-4ab9-8d7c-f1b914f5c8bb}"},
+        
+        {"event_id": "event:/char/enemy/lamp_keeper_spark_strike",                      "guid_override":"{f59345e4-fceb-4baf-8987-e3839db02ebc}"},
+        {"event_id": "event:/char/enemy/lamp_keeper_spark_strike_miss",                 "guid_override":"{2d3e8229-4c35-4198-a475-e0eec9b253ff}"},
+        {"event_id": "event:/char/enemy/lamp_keeper_flames_of_march",                   "guid_override":"{b3d36db2-8afc-4230-9433-cd12d39e812f}"},
+        {"event_id": "event:/char/enemy/lamp_keeper_flames_of_march_miss",              "guid_override":"{ffc6dfa3-f9ba-4279-8556-621bfa96cfe0}"},
+        {"event_id": "event:/char/enemy/lamp_keeper_ominous_purple",                    "guid_override":"{d9aabbad-1ed6-4500-8564-7d2cdd8c862f}"},
+        {"event_id": "event:/char/enemy/lamp_keeper_ominous_purple_miss",               "guid_override":"{d56c8933-de58-4ff6-a7fa-49bab1bbb6f8}"},
+        {"event_id": "event:/char/enemy/lamp_keeper_siphon_life_lamp",                  "guid_override":"{b676acd7-0d5d-4aae-8944-9cd1445d96a9}"},
+        {"event_id": "event:/char/enemy/lamp_keeper_siphon_life_lamp_miss",             "guid_override":"{23523497-7bc3-48b9-8f25-a3d97b9feb93}"},
+        {"event_id": "event:/char/enemy/lamp_keeper_unclean_healing",                   "guid_override":"{f17ba76b-b89b-443e-9f53-8f4dc1a51384}"},
+        {"event_id": "event:/char/enemy/lamp_keeper_unclean_healing_miss",              "guid_override":"{bf3aa57e-01e8-4c2a-ba03-342f5c9e727d}"}
+
+    ]
+}

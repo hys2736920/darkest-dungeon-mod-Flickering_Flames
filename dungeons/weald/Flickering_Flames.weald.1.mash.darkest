@@ -1,0 +1,29 @@
+hall: .chance 0.5 .types rabid_dog_A rabid_dog_A rabid_dog_A lamp_keeper_A
+hall: .chance 0.5 .types rabid_dog_A rabid_dog_A cultist_witch_A lamp_keeper_A
+hall: .chance 0.5 .types rabid_dog_A rabid_dog_A madman_A lamp_keeper_A
+hall: .chance 0.5 .types rabid_dog_A fungal_bloat_A fungal_artillery_A lamp_keeper_A
+hall: .chance 0.5 .types rabid_dog_A fungal_bloat_A cultist_witch_A lamp_keeper_A
+hall: .chance 0.5 .types rabid_dog_A fungal_bloat_A madman_A lamp_keeper_A
+hall: .chance 0.5 .types fungal_bloat_A fungal_bloat_A fungal_artillery_A lamp_keeper_A
+hall: .chance 0.5 .types fungal_bloat_A fungal_bloat_A cultist_witch_A lamp_keeper_A
+hall: .chance 0.5 .types fungal_bloat_A fungal_bloat_A madman_A lamp_keeper_A
+hall: .chance 0.5 .types skeleton_common_A skeleton_common_A rabid_dog_A lamp_keeper_A
+hall: .chance 0.5 .types skeleton_common_A cultist_brawler_A cultist_witch_A lamp_keeper_A
+hall: .chance 0.5 .types cultist_brawler_A cultist_brawler_A cultist_witch_A lamp_keeper_A
+hall: .chance 0.5 .types brigand_blood_A brigand_fusilier_A lamp_keeper_A
+hall: .chance 0.5 .types brigand_cutthroat_A brigand_cutthroat_A brigand_fusilier_A lamp_keeper_A
+
+room: .chance 0.5 .types rabid_dog_A rabid_dog_A rabid_dog_A lamp_keeper_A
+room: .chance 0.5 .types rabid_dog_A rabid_dog_A cultist_witch_A lamp_keeper_A
+room: .chance 0.5 .types rabid_dog_A rabid_dog_A madman_A lamp_keeper_A
+room: .chance 0.5 .types rabid_dog_A fungal_bloat_A fungal_artillery_A lamp_keeper_A
+room: .chance 0.5 .types rabid_dog_A fungal_bloat_A cultist_witch_A lamp_keeper_A
+room: .chance 0.5 .types rabid_dog_A fungal_bloat_A madman_A lamp_keeper_A
+room: .chance 0.5 .types fungal_bloat_A fungal_bloat_A fungal_artillery_A lamp_keeper_A
+room: .chance 0.5 .types fungal_bloat_A fungal_bloat_A cultist_witch_A lamp_keeper_A
+room: .chance 0.5 .types fungal_bloat_A fungal_bloat_A madman_A lamp_keeper_A
+room: .chance 0.5 .types cultist_brawler_A cultist_brawler_A cultist_witch_A lamp_keeper_A
+room: .chance 0.5 .types cultist_brawler_A cultist_brawler_A fungal_artillery_A lamp_keeper_A
+room: .chance 0.5 .types cultist_brawler_A fungal_bloat_A cultist_witch_A lamp_keeper_A
+room: .chance 0.5 .types cultist_brawler_A fungal_bloat_A fungal_artillery_A lamp_keeper_A
+room: .chance 0.5 .types brigand_blood_A brigand_fusilier_A lamp_keeper_A

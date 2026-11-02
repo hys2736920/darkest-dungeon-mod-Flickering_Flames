@@ -1,0 +1,27 @@
+
+lamp_keeper.sprite.defend.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 1, 928
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+lamp_keeper_defense
+  rotate: false
+  xy: 1, 1
+  size: 452, 925
+  orig: 460, 932
+  offset: 4, 3
+  index: -1
+lamp_light_1
+  rotate: false
+  xy: 455, 1
+  size: 195, 199
+  orig: 195, 199
+  offset: 0, 0
+  index: -1

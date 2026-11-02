@@ -1,0 +1,10 @@
+//防風燈籠
+inventory_item: .type "supply" .id "hurricane_lamp" .base_stack_limit 8 .purchase_gold_value 150 .sell_gold_value 150 .wait_for_item_use_to_finish false
+
+
+
+//假物品
+inventory_item: .type "supply" .id "hurricane_lamp_2" .base_stack_limit 8 .purchase_gold_value 0 .sell_gold_value 0 .wait_for_item_use_to_finish false
+inventory_item: .type "supply" .id "hurricane_lamp_3" .base_stack_limit 8 .purchase_gold_value 0 .sell_gold_value 0 .wait_for_item_use_to_finish false
+inventory_item:	.type "supply" .id "Firmament_Get_Stress" .base_stack_limit 99 .purchase_gold_value 0 .sell_gold_value 0 .wait_for_item_use_to_finish false
+inventory_item:	.type "supply" .id "Abyss_Get_Stress" .base_stack_limit 99 .purchase_gold_value 0 .sell_gold_value 0 .wait_for_item_use_to_finish false

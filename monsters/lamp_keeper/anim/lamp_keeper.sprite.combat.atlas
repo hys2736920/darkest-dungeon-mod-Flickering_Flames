@@ -1,0 +1,139 @@
+
+lamp_keeper.sprite.combat.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 267, 932
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+back_fabric
+  rotate: false
+  xy: 773, 774
+  size: 53, 213
+  orig: 53, 213
+  offset: 0, 0
+  index: -1
+right_lower_leg
+  rotate: false
+  xy: 267, 714
+  size: 110, 216
+  orig: 110, 216
+  offset: 0, 0
+  index: -1
+right_thigh
+  rotate: false
+  xy: 147, 714
+  size: 118, 286
+  orig: 118, 286
+  offset: 0, 0
+  index: -1
+buttock
+  rotate: false
+  xy: 379, 751
+  size: 75, 104
+  orig: 75, 104
+  offset: 0, 0
+  index: -1
+left_lower_leg
+  rotate: false
+  xy: 711, 774
+  size: 60, 217
+  orig: 60, 217
+  offset: 0, 0
+  index: -1
+left_foot
+  rotate: false
+  xy: 1, 836
+  size: 102, 94
+  orig: 102, 94
+  offset: 0, 0
+  index: -1
+left_thigh
+  rotate: false
+  xy: 344, 228
+  size: 78, 330
+  orig: 78, 330
+  offset: 0, 0
+  index: -1
+lower_body
+  rotate: false
+  xy: 1, 513
+  size: 144, 321
+  orig: 144, 321
+  offset: 0, 0
+  index: -1
+upper_body
+  rotate: false
+  xy: 233, 1
+  size: 192, 225
+  orig: 192, 225
+  offset: 0, 0
+  index: -1
+cloak
+  rotate: false
+  xy: 1, 291
+  size: 298, 220
+  orig: 298, 220
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 1, 1
+  size: 230, 288
+  orig: 230, 288
+  offset: 0, 0
+  index: -1
+right_upper_arm
+  rotate: false
+  xy: 1, 932
+  size: 64, 84
+  orig: 64, 84
+  offset: 0, 0
+  index: -1
+right_lower_arm
+  rotate: false
+  xy: 379, 560
+  size: 95, 189
+  orig: 95, 189
+  offset: 0, 0
+  index: -1
+lamp
+  rotate: false
+  xy: 626, 560
+  size: 97, 212
+  orig: 97, 212
+  offset: 0, 0
+  index: -1
+left_upper_arm
+  rotate: false
+  xy: 379, 857
+  size: 42, 70
+  orig: 42, 70
+  offset: 0, 0
+  index: -1
+left_lower_arm
+  rotate: false
+  xy: 626, 774
+  size: 83, 196
+  orig: 83, 196
+  offset: 0, 0
+  index: -1
+right_foot
+  rotate: false
+  xy: 456, 751
+  size: 70, 105
+  orig: 70, 105
+  offset: 0, 0
+  index: -1
+lamp_light_1
+  rotate: false
+  xy: 147, 513
+  size: 195, 199
+  orig: 195, 199
+  offset: 0, 0
+  index: -1

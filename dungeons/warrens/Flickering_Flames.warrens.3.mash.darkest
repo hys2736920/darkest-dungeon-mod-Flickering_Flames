@@ -1,0 +1,39 @@
+hall: .chance 0.5 .types swine_reaver_B swine_wretch_B swine_drummer_B lamp_keeper_B
+hall: .chance 0.5 .types swine_reaver_B swine_wretch_B swine_wretch_B lamp_keeper_B
+hall: .chance 0.5 .types swine_reaver_B swine_wretch_B madman_B lamp_keeper_B
+hall: .chance 0.5 .types carrion_eater_B swine_reaver_B swine_drummer_B lamp_keeper_B
+hall: .chance 0.5 .types carrion_eater_B swine_reaver_B swine_wretch_B lamp_keeper_B
+hall: .chance 0.5 .types carrion_eater_B swine_reaver_B madman_B lamp_keeper_B
+hall: .chance 0.5 .types carrion_eater_B carrion_eater_B carrion_eater_B lamp_keeper_B
+hall: .chance 0.5 .types swine_wretch_B swine_wretch_B swine_wretch_B lamp_keeper_B
+hall: .chance 0.5 .types cultist_brawler_B cultist_brawler_B cultist_witch_B lamp_keeper_B
+hall: .chance 0.5 .types cultist_brawler_B cultist_brawler_B swine_drummer_B lamp_keeper_B
+hall: .chance 0.5 .types cultist_brawler_B cultist_brawler_B swine_wretch_B lamp_keeper_B
+hall: .chance 0.5 .types skeleton_common_B cultist_brawler_B cultist_witch_B lamp_keeper_B
+hall: .chance 0.5 .types brigand_blood_B brigand_fusilier_B lamp_keeper_B
+hall: .chance 0.5 .types brigand_cutthroat_B brigand_cutthroat_B brigand_fusilier_B lamp_keeper_B
+hall: .chance 0.5 .types carrion_eater_big_B swine_drummer_B lamp_keeper_B
+hall: .chance 0.5 .types carrion_eater_big_B swine_wretch_B lamp_keeper_B
+hall: .chance 0.5 .types carrion_eater_big_B swine_reaver_B lamp_keeper_B
+hall: .chance 0.5 .types carrion_eater_big_B cultist_witch_B lamp_keeper_B
+hall: .chance 0.5 .types ghoul_B swine_drummer_B lamp_keeper_B
+hall: .chance 0.5 .types ghoul_B swine_wretch_B lamp_keeper_B
+
+room: .chance 0.5 .types swine_reaver_B swine_wretch_B swine_drummer_B lamp_keeper_B
+room: .chance 0.5 .types swine_reaver_B swine_wretch_B swine_wretch_B lamp_keeper_B
+room: .chance 0.5 .types swine_reaver_B swine_wretch_B madman_B lamp_keeper_B
+room: .chance 0.5 .types swine_reaver_B cultist_brawler_B cultist_witch_B lamp_keeper_B
+room: .chance 0.5 .types swine_reaver_B cultist_brawler_B swine_drummer_B lamp_keeper_B
+room: .chance 0.5 .types swine_reaver_B cultist_brawler_B swine_wretch_B lamp_keeper_B
+room: .chance 0.5 .types carrion_eater_B swine_reaver_B swine_drummer_B lamp_keeper_B
+room: .chance 0.5 .types carrion_eater_B swine_reaver_B swine_wretch_B lamp_keeper_B
+room: .chance 0.5 .types carrion_eater_B swine_reaver_B madman_B lamp_keeper_B
+room: .chance 0.5 .types carrion_eater_B carrion_eater_B carrion_eater_B lamp_keeper_B
+room: .chance 0.5 .types cultist_brawler_B cultist_brawler_B cultist_witch_B lamp_keeper_B
+room: .chance 0.5 .types cultist_brawler_B cultist_brawler_B swine_drummer_B lamp_keeper_B
+room: .chance 0.5 .types cultist_brawler_B cultist_brawler_B swine_wretch_B lamp_keeper_B
+room: .chance 0.5 .types brigand_blood_B brigand_fusilier_B lamp_keeper_B
+room: .chance 0.5 .types carrion_eater_big_B swine_drummer_B lamp_keeper_B
+room: .chance 0.5 .types carrion_eater_big_B swine_wretch_B lamp_keeper_B
+room: .chance 0.5 .types carrion_eater_big_B swine_reaver_B lamp_keeper_B
+room: .chance 0.5 .types carrion_eater_big_B cultist_witch_B lamp_keeper_B

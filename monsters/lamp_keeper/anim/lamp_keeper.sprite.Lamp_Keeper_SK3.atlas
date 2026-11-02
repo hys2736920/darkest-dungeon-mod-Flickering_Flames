@@ -1,0 +1,34 @@
+
+lamp_keeper.sprite.Lamp_Keeper_SK3.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shadow
+  rotate: false
+  xy: 1, 853
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+lamp_keeper_SK2_1
+  rotate: false
+  xy: 621, 1
+  size: 618, 850
+  orig: 618, 851
+  offset: 0, 0
+  index: -1
+lamp_keeper_SK3
+  rotate: false
+  xy: 1, 1
+  size: 618, 850
+  orig: 618, 851
+  offset: 0, 0
+  index: -1
+lamp_light_3
+  rotate: false
+  xy: 1241, 1
+  size: 195, 199
+  orig: 195, 199
+  offset: 0, 0
+  index: -1

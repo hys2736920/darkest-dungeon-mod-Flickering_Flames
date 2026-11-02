@@ -1,0 +1,907 @@
+{
+   "buffs":
+   [
+      {
+         "id" : "FF_monster_stress",
+         "stat_type" : "stress_dmg_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.1,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+
+
+
+      {
+         "id" : "FF_monster_HP_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : 0.25,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_monster_HP_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : 0.30,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_monster_HP_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "max_hp",
+         "amount" : 0.40,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+
+
+      
+      {
+         "id" : "FF_monster_SPD_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 1,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_monster_SPD_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 2,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_monster_SPD_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 3,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+
+
+
+      {
+         "id" : "FF_monster_poison_chance",
+         "stat_type" : "poison_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.33,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_monster_bleed_chance",
+         "stat_type" : "bleed_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.33,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_monster_move_chance",
+         "stat_type" : "move_chance",
+         "stat_sub_type" : "",
+         "amount" : 0.33,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      
+
+
+      {
+         "id" : "FF_monster_resist_stun",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : 0.33,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_monster_resist_move",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "move",
+         "amount" : 0.33,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_monster_resist_debuff",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "debuff",
+         "amount" : 0.33,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+
+
+
+      {
+         "id" : "FF_monster_resist_poison",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "poison",
+         "amount" : 0.33,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_monster_resist_bleed",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "bleed",
+         "amount" : 0.33,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_DMG_received_down_1",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.1,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_DMG_received_down_2",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.15,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_DMG_received_down_3",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.2,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_DMG_received_down_4",
+         "stat_type" : "damage_received_percent",
+         "stat_sub_type" : "",
+         "amount" : -0.3,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      
+
+      
+      {
+         "id" : "FF_spark_strike_resist_stun_1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : -0.2,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_spark_strike_resist_stun_2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : -0.25,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_spark_strike_resist_stun_3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "stun",
+         "amount" : -0.3,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+
+      {
+         "id" : "FF_flames_of_march_buff_DMGL_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.1,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_flames_of_march_buff_DMGH_1",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.1,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_flames_of_march_buff_DMGL_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_flames_of_march_buff_DMGH_2",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_flames_of_march_buff_DMGL_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.2,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_flames_of_march_buff_DMGH_3",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.2,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_flames_of_march_buff_SPD_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 1,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_flames_of_march_buff_SPD_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 2,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_flames_of_march_buff_ACC_1",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.05,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_flames_of_march_buff_ACC_2",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.08,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_flames_of_march_buff_ACC_3",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.1,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_flames_of_march_buff_DMGL_1_B",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.1,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 60,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_flames_of_march_buff_DMGH_1_B",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.1,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 60,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_flames_of_march_buff_DMGL_2_B",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.15,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 60,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_flames_of_march_buff_DMGH_2_B",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.15,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 60,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_flames_of_march_buff_DMGL_3_B",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_low",
+         "amount" : 0.2,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 60,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_flames_of_march_buff_DMGH_3_B",
+         "stat_type" : "combat_stat_multiply",
+         "stat_sub_type" : "damage_high",
+         "amount" : 0.2,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 60,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_flames_of_march_buff_SPD_1_B",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 1,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 60,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_flames_of_march_buff_SPD_2_B",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "speed_rating",
+         "amount" : 2,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 60,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_flames_of_march_buff_ACC_1_B",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.05,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 60,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_flames_of_march_buff_ACC_2_B",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.08,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 60,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_flames_of_march_buff_ACC_3_B",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "attack_rating",
+         "amount" : 0.1,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "lightabove",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 60,
+            "string" : ""
+         }
+      },
+      
+      {
+         "id" : "FF_ominous_purple_resist_stress_down_1",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.1,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_ominous_purple_resist_stress_down_2",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.2,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_ominous_purple_resist_stress_down_3",
+         "stat_type" : "stress_dmg_received_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.3,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      
+      {
+         "id" : "FF_unclean_healing_1",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "unclean_healing_1",
+         "amount" : 1,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "attack_additional_effect_ids" : [ "FF_Unclean_Healing_poison_1", "FF_Unclean_Healing_resist_dis_down_1" ],
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_unclean_healing_2",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "unclean_healing_2",
+         "amount" : 1,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "attack_additional_effect_ids" : [ "FF_Unclean_Healing_poison_2", "FF_Unclean_Healing_resist_dis_down_2" ],
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_unclean_healing_3",
+         "stat_type" : "quirk_tag_evolution_duration",
+         "stat_sub_type" : "unclean_healing_3",
+         "amount" : 1,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "attack_additional_effect_ids" : [ "FF_Unclean_Healing_poison_3", "FF_Unclean_Healing_resist_dis_down_3" ],
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_spark_strike_resist_dis_down_1",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : -0.05,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_spark_strike_resist_dis_down_2",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : -0.1,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "FF_spark_strike_resist_dis_down_3",
+         "stat_type" : "resistance",
+         "stat_sub_type" : "disease",
+         "amount" : -0.15,
+         "duration_type" : "round",
+         "duration" : 3,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      
+      {
+         "id" : "FF_lamp_keeper_passive_stress_1",
+         "stat_type" : "stress_dmg_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.33,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+		   "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 41,
+            "string" : ""
+         },
+         "has_description" : false
+      },
+      {
+         "id" : "FF_lamp_keeper_passive_stress_2",
+         "stat_type" : "stress_dmg_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.33,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+		   "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 21,
+            "string" : ""
+         },
+         "has_description" : false
+      },
+      {
+         "id" : "FF_lamp_keeper_passive_stress_3",
+         "stat_type" : "stress_dmg_percent",
+         "stat_sub_type" : "",
+         "amount" : 0.33,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+		   "rule_type" : "lightbelow",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 1,
+            "string" : ""
+         },
+         "has_description" : false
+      },
+      {
+         "id" : "FF_lamp_keeper_passive_stealth",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : 0.2,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "attack_additional_effect_ids" : [ "FF_Lamp_Keeper_Passive_Stealth" ],
+		   "rule_type" : "in_rank",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 3,
+            "string" : ""
+         },
+         "has_description" : false
+      },
+      {
+         "id" : "FF_lamp_keeper_passive_unstealth",
+         "stat_type" : "combat_stat_add",
+         "stat_sub_type" : "defense_rating",
+         "amount" : -0.1,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "attack_additional_effect_ids" : [ "FF_Lamp_Keeper_Passive_Unstealth" ],
+		   "rule_type" : "in_rank",
+         "is_false_rule" : true,
+         "rule_data" : {
+            "float" : 3,
+            "string" : ""
+         },
+         "has_description" : false
+      }
+   ]
+}

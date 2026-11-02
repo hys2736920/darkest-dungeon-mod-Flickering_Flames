@@ -1,0 +1,46 @@
+hall: .chance 0.5 .types rabid_dog_C rabid_dog_C rabid_dog_C lamp_keeper_C
+hall: .chance 0.5 .types rabid_dog_C rabid_dog_C cultist_witch_C lamp_keeper_C
+hall: .chance 0.5 .types rabid_dog_C rabid_dog_C madman_C lamp_keeper_C
+hall: .chance 0.5 .types rabid_dog_C fungal_bloat_C fungal_artillery_C lamp_keeper_C
+hall: .chance 0.5 .types rabid_dog_C fungal_bloat_C cultist_witch_C lamp_keeper_C
+hall: .chance 0.5 .types rabid_dog_C fungal_bloat_C madman_C lamp_keeper_C
+hall: .chance 0.5 .types fungal_bloat_C fungal_bloat_C fungal_artillery_C lamp_keeper_C
+hall: .chance 0.5 .types fungal_bloat_C fungal_bloat_C cultist_witch_C lamp_keeper_C
+hall: .chance 0.5 .types fungal_bloat_C fungal_bloat_C madman_C lamp_keeper_C
+hall: .chance 0.5 .types skeleton_common_C skeleton_common_C rabid_dog_C lamp_keeper_C
+hall: .chance 0.5 .types skeleton_common_C cultist_brawler_C cultist_witch_C lamp_keeper_C
+hall: .chance 0.5 .types cultist_brawler_C cultist_brawler_C cultist_witch_C lamp_keeper_C
+hall: .chance 0.5 .types brigand_blood_C brigand_fusilier_C lamp_keeper_C
+hall: .chance 0.5 .types brigand_cutthroat_C brigand_cutthroat_C brigand_fusilier_C lamp_keeper_C
+hall: .chance 0.5 .types unclean_giant_C crone_C lamp_keeper_C
+hall: .chance 0.5 .types unclean_giant_C rabid_dog_C lamp_keeper_C
+hall: .chance 0.5 .types unclean_giant_C cultist_witch_C lamp_keeper_C
+hall: .chance 0.5 .types unclean_giant_C fungal_artillery_C lamp_keeper_C
+hall: .chance 0.5 .types cultist_brawler_C ghoul_C lamp_keeper_C
+hall: .chance 0.5 .types ghoul_C cultist_witch_C lamp_keeper_C
+hall: .chance 0.5 .types ghoul_C rabid_dog_C lamp_keeper_C
+hall: .chance 0.5 .types ghoul_C crone_C lamp_keeper_C
+hall: .chance 0.5 .types ghoul_C virago_hateful_C lamp_keeper_C
+hall: .chance 0.5 .types rabid_dog_C crone_C virago_hateful_C lamp_keeper_C
+hall: .chance 0.5 .types skeleton_common_C cultist_brawler_C virago_hateful_C lamp_keeper_C
+
+room: .chance 0.5 .types rabid_dog_C rabid_dog_C rabid_dog_C lamp_keeper_C
+room: .chance 0.5 .types rabid_dog_C rabid_dog_C cultist_witch_C lamp_keeper_C
+room: .chance 0.5 .types rabid_dog_C rabid_dog_C madman_C lamp_keeper_C
+room: .chance 0.5 .types rabid_dog_C fungal_bloat_C fungal_artillery_C lamp_keeper_C
+room: .chance 0.5 .types rabid_dog_C fungal_bloat_C cultist_witch_C lamp_keeper_C
+room: .chance 0.5 .types rabid_dog_C fungal_bloat_C madman_C lamp_keeper_C
+room: .chance 0.5 .types fungal_bloat_C fungal_bloat_C fungal_artillery_C lamp_keeper_C
+room: .chance 0.5 .types fungal_bloat_C fungal_bloat_C cultist_witch_C lamp_keeper_C
+room: .chance 0.5 .types fungal_bloat_C fungal_bloat_C madman_C lamp_keeper_C
+room: .chance 0.5 .types cultist_brawler_C cultist_brawler_C cultist_witch_C lamp_keeper_C
+room: .chance 0.5 .types cultist_brawler_C cultist_brawler_C fungal_artillery_C lamp_keeper_C
+room: .chance 0.5 .types cultist_brawler_C fungal_bloat_C cultist_witch_C lamp_keeper_C
+room: .chance 0.5 .types cultist_brawler_C fungal_bloat_C fungal_artillery_C lamp_keeper_C
+room: .chance 0.5 .types brigand_blood_C brigand_fusilier_C lamp_keeper_C
+room: .chance 0.5 .types unclean_giant_C crone_C lamp_keeper_C
+room: .chance 0.5 .types unclean_giant_C rabid_dog_C lamp_keeper_C
+room: .chance 0.5 .types unclean_giant_C cultist_witch_C lamp_keeper_C
+room: .chance 0.5 .types unclean_giant_C fungal_artillery_C lamp_keeper_C
+room: .chance 0.5 .types fungal_bloat_C fungal_bloat_C virago_hateful_C lamp_keeper_C
+room: .chance 0.5 .types unclean_giant_C virago_hateful_C lamp_keeper_C

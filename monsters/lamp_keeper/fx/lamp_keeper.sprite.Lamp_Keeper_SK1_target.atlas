@@ -1,0 +1,76 @@
+
+lamp_keeper.sprite.Lamp_Keeper_SK1_target.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+outer_glow
+  rotate: false
+  xy: 311, 255
+  size: 247, 250
+  orig: 247, 250
+  offset: 0, 0
+  index: -1
+outer_rays
+  rotate: false
+  xy: 1, 1
+  size: 308, 309
+  orig: 308, 309
+  offset: 0, 0
+  index: -1
+inner_rays
+  rotate: false
+  xy: 311, 1
+  size: 251, 252
+  orig: 251, 252
+  offset: 0, 0
+  index: -1
+inner_glow
+  rotate: false
+  xy: 1, 312
+  size: 198, 199
+  orig: 198, 199
+  offset: 0, 0
+  index: -1
+stars01
+  rotate: false
+  xy: 265, 312
+  size: 44, 43
+  orig: 44, 43
+  offset: 0, 0
+  index: -1
+stars02
+  rotate: false
+  xy: 201, 430
+  size: 62, 57
+  orig: 62, 57
+  offset: 0, 0
+  index: -1
+stars03
+  rotate: false
+  xy: 201, 371
+  size: 62, 57
+  orig: 62, 57
+  offset: 0, 0
+  index: -1
+stars04
+  rotate: false
+  xy: 201, 312
+  size: 62, 57
+  orig: 62, 57
+  offset: 0, 0
+  index: -1
+stars05
+  rotate: false
+  xy: 265, 357
+  size: 33, 30
+  orig: 33, 30
+  offset: 0, 0
+  index: -1
+stars06
+  rotate: false
+  xy: 560, 255
+  size: 62, 57
+  orig: 62, 57
+  offset: 0, 0
+  index: -1

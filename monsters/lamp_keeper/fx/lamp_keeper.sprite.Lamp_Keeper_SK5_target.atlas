@@ -1,0 +1,132 @@
+
+lamp_keeper.sprite.Lamp_Keeper_SK5_target.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aura
+  rotate: false
+  xy: 1, 1
+  size: 217, 528
+  orig: 217, 528
+  offset: 0, 0
+  index: -1
+short_ray01
+  rotate: false
+  xy: 38, 834
+  size: 34, 54
+  orig: 34, 54
+  offset: 0, 0
+  index: -1
+short_ray02
+  rotate: false
+  xy: 1, 531
+  size: 52, 101
+  orig: 52, 101
+  offset: 0, 0
+  index: -1
+short_ray03
+  rotate: false
+  xy: 38, 771
+  size: 36, 61
+  orig: 36, 61
+  offset: 0, 0
+  index: -1
+short_ray04
+  rotate: false
+  xy: 1, 634
+  size: 49, 61
+  orig: 49, 61
+  offset: 0, 0
+  index: -1
+short_ray05
+  rotate: false
+  xy: 39, 697
+  size: 34, 62
+  orig: 34, 62
+  offset: 0, 0
+  index: -1
+short_ray06
+  rotate: false
+  xy: 52, 634
+  size: 35, 58
+  orig: 35, 58
+  offset: 0, 0
+  index: -1
+short_ray07
+  rotate: false
+  xy: 1, 845
+  size: 35, 72
+  orig: 35, 72
+  offset: 0, 0
+  index: -1
+short_ray08
+  rotate: false
+  xy: 1, 919
+  size: 36, 65
+  orig: 36, 65
+  offset: 0, 0
+  index: -1
+short_ray09
+  rotate: false
+  xy: 89, 586
+  size: 34, 53
+  orig: 34, 53
+  offset: 0, 0
+  index: -1
+short_ray10
+  rotate: false
+  xy: 55, 531
+  size: 34, 53
+  orig: 34, 53
+  offset: 0, 0
+  index: -1
+short_ray11
+  rotate: false
+  xy: 1, 771
+  size: 35, 72
+  orig: 35, 72
+  offset: 0, 0
+  index: -1
+short_ray12
+  rotate: false
+  xy: 1, 697
+  size: 36, 72
+  orig: 36, 72
+  offset: 0, 0
+  index: -1
+short_ray13
+  rotate: false
+  xy: 75, 694
+  size: 35, 56
+  orig: 35, 56
+  offset: 0, 0
+  index: -1
+short_ray14
+  rotate: false
+  xy: 89, 641
+  size: 32, 47
+  orig: 32, 47
+  offset: 0, 0
+  index: -1
+glow_ray01
+  rotate: false
+  xy: 220, 1
+  size: 86, 528
+  orig: 86, 528
+  offset: 0, 0
+  index: -1
+glow_ray02
+  rotate: false
+  xy: 396, 1
+  size: 86, 528
+  orig: 86, 528
+  offset: 0, 0
+  index: -1
+glow_ray03
+  rotate: false
+  xy: 308, 1
+  size: 86, 528
+  orig: 86, 528
+  offset: 0, 0
+  index: -1

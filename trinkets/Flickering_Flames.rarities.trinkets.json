@@ -1,0 +1,25 @@
+{
+   "rarities":
+   [
+		{
+            "id": "FF_abyss",
+            "award_category": "battle",
+            "insert_before": "ancestral_shambler"
+        },
+
+        {
+            "id": "lamp_keeper_U",
+            "award_category": "battle"
+        },
+
+        {
+            "id": "lamp_keeper_R",
+            "award_category": "battle"
+        },
+
+        {
+            "id": "lamp_keeper_VR",
+            "award_category": "battle"
+        }
+	]
+}

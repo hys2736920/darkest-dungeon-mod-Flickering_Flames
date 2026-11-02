@@ -1,0 +1,580 @@
+{
+   "loot_tables" :
+   [
+      {
+         "id" : "FF_Item_half",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 1, "data" : { }},
+            { "type" : "table", "chances" : 1, "data" : { "table" : "FF_Item" }}
+         ]
+      },
+      {
+         "id" : "FF_Item",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 2, "data" : { }},
+            { "type" : "table", "chances" : 4, "data" : { "table" : "H" }},
+            { "type" : "table", "chances" : 3, "data" : { "table" : "S" }},
+            { "type" : "table", "chances" : 1, "data" : { "table" : "T" }}
+         ]
+      },
+
+
+
+      {
+         "id" : "FF_Money_half",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 1, "data" : { }},
+            { "type" : "table", "chances" : 1, "data" : { "table" : "FF_Money" }}
+         ]
+      },
+      {
+         "id" : "FF_Money",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 2, "data" : { }},
+            { "type" : "table", "chances" : 5, "data" : { "table" : "C" }},
+            { "type" : "table", "chances" : 3, "data" : { "table" : "G" }}
+         ]
+      },
+
+
+
+      {
+         "id" : "FF_ModItem",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 192, "data" : { }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "supply", "id" : "hurricane_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "conflux_pact", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "transfer_pact", "amount" : 1 }}
+         ]
+      },
+
+
+
+      {
+         "id" : "FF_ModItem_dark",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 192, "data" : { }},
+            { "type" : "table", "chances" : 6, "data" : { "table" : "FF_ModItem_abyss" }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "conflux_pact", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "transfer_pact", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "FF_ModItem_abyss",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "hurricane_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "abyssal_lamp", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "FF_ModItem_abyss",
+         "difficulty" : 2,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "hurricane_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "abyssal_lamp", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "FF_ModItem_abyss",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 5, "data" : { "type" : "supply", "id" : "hurricane_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "abyssal_lamp", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "FF_ModItem_abyss",
+         "difficulty" : 4,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 5, "data" : { "type" : "supply", "id" : "hurricane_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "abyssal_lamp", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "FF_ModItem_abyss",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "hurricane_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "abyssal_lamp", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "FF_ModItem_abyss",
+         "difficulty" : 6,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "hurricane_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "abyssal_lamp", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "FF_ModItem_abyss",
+         "difficulty" : 7,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "hurricane_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "abyssal_lamp", "amount" : 1 }}
+         ]
+      },
+
+
+
+      {
+         "id" : "FF_ModItem_light",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 192, "data" : { }},
+            { "type" : "table", "chances" : 6, "data" : { "table" : "FF_ModItem_firmament" }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "conflux_pact", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "transfer_pact", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "FF_ModItem_firmament",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "hurricane_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "firmament_lamp", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "FF_ModItem_firmament",
+         "difficulty" : 2,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "supply", "id" : "hurricane_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "firmament_lamp", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "FF_ModItem_firmament",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 5, "data" : { "type" : "supply", "id" : "hurricane_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "firmament_lamp", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "FF_ModItem_firmament",
+         "difficulty" : 4,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 5, "data" : { "type" : "supply", "id" : "hurricane_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "firmament_lamp", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "FF_ModItem_firmament",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "hurricane_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "firmament_lamp", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "FF_ModItem_firmament",
+         "difficulty" : 6,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "hurricane_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "firmament_lamp", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "FF_ModItem_firmament",
+         "difficulty" : 7,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "hurricane_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "firmament_lamp", "amount" : 1 }}
+         ]
+      },
+
+
+
+      {
+         "id" : "FF_Abyss_T",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "FF_abyss" }}
+         ]
+      },
+      {
+         "id" : "FF_Abyss_G",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gem", "id" : "abyss_amethyst", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "gem", "id" : "abyss_amethyst", "amount" : 2 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gem", "id" : "abyss_amethyst", "amount" : 3 }}
+         ]
+      },
+      {
+         "id" : "FF_Abyss_G",
+         "difficulty" : 2,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gem", "id" : "abyss_amethyst", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "gem", "id" : "abyss_amethyst", "amount" : 2 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gem", "id" : "abyss_amethyst", "amount" : 3 }}
+         ]
+      },
+      {
+         "id" : "FF_Abyss_G",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 2, "data" : { "type" : "gem", "id" : "abyss_amethyst", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "gem", "id" : "abyss_amethyst", "amount" : 2 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gem", "id" : "abyss_amethyst", "amount" : 3 }}
+         ]
+      },
+      {
+         "id" : "FF_Abyss_G",
+         "difficulty" : 4,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 2, "data" : { "type" : "gem", "id" : "abyss_amethyst", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "gem", "id" : "abyss_amethyst", "amount" : 2 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gem", "id" : "abyss_amethyst", "amount" : 3 }}
+         ]
+      },
+      {
+         "id" : "FF_Abyss_G",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gem", "id" : "abyss_amethyst", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "gem", "id" : "abyss_amethyst", "amount" : 2 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "gem", "id" : "abyss_amethyst", "amount" : 3 }}
+         ]
+      },
+      {
+         "id" : "FF_Abyss_G",
+         "difficulty" : 6,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gem", "id" : "abyss_amethyst", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "gem", "id" : "abyss_amethyst", "amount" : 2 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "gem", "id" : "abyss_amethyst", "amount" : 3 }}
+         ]
+      },
+      {
+         "id" : "FF_Abyss_G",
+         "difficulty" : 7,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gem", "id" : "abyss_amethyst", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "gem", "id" : "abyss_amethyst", "amount" : 2 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "gem", "id" : "abyss_amethyst", "amount" : 3 }}
+         ]
+      },
+      {
+         "id" : "FF_Abyss_PactC",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "conflux_pact", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "FF_Abyss_PactT",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "transfer_pact", "amount" : 1 }}
+         ]
+      },
+
+
+
+      {
+         "id" : "FF_LK_GT",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "table", "chances" : 4, "data" : { "table" : "G" }},
+            { "type" : "table", "chances" : 1, "data" : { "table" : "FF_LK_T" }}
+         ]
+      },
+      {
+         "id" : "FF_LK_T",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "trinket", "chances" : 7, "data" : { "rarity" : "very_common" }},
+            { "type" : "trinket", "chances" : 6, "data" : { "rarity" : "common" }},
+            { "type" : "trinket", "chances" : 2, "data" : { "rarity" : "uncommon" }},
+            { "type" : "trinket", "chances" : 0, "data" : { "rarity" : "rare" }},
+            { "type" : "trinket", "chances" : 5, "data" : { "rarity" : "lamp_keeper_U" }},
+            { "type" : "trinket", "chances" : 0, "data" : { "rarity" : "lamp_keeper_R" }},
+            { "type" : "trinket", "chances" : 0, "data" : { "rarity" : "lamp_keeper_VR" }}
+         ]
+      },
+      {
+         "id" : "FF_LK_T",
+         "difficulty" : 2,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "trinket", "chances" : 6, "data" : { "rarity" : "very_common" }},
+            { "type" : "trinket", "chances" : 5, "data" : { "rarity" : "common" }},
+            { "type" : "trinket", "chances" : 2, "data" : { "rarity" : "uncommon" }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "rare" }},
+            { "type" : "trinket", "chances" : 6, "data" : { "rarity" : "lamp_keeper_U" }},
+            { "type" : "trinket", "chances" : 0, "data" : { "rarity" : "lamp_keeper_R" }},
+            { "type" : "trinket", "chances" : 0, "data" : { "rarity" : "lamp_keeper_VR" }}
+         ]
+      },
+      {
+         "id" : "FF_LK_T",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "trinket", "chances" : 5, "data" : { "rarity" : "very_common" }},
+            { "type" : "trinket", "chances" : 4, "data" : { "rarity" : "common" }},
+            { "type" : "trinket", "chances" : 2, "data" : { "rarity" : "uncommon" }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "rare" }},
+            { "type" : "trinket", "chances" : 6, "data" : { "rarity" : "lamp_keeper_U" }},
+            { "type" : "trinket", "chances" : 2, "data" : { "rarity" : "lamp_keeper_R" }},
+            { "type" : "trinket", "chances" : 0, "data" : { "rarity" : "lamp_keeper_VR" }}
+         ]
+      },
+      {
+         "id" : "FF_LK_T",
+         "difficulty" : 4,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "trinket", "chances" : 5, "data" : { "rarity" : "very_common" }},
+            { "type" : "trinket", "chances" : 4, "data" : { "rarity" : "common" }},
+            { "type" : "trinket", "chances" : 2, "data" : { "rarity" : "uncommon" }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "rare" }},
+            { "type" : "trinket", "chances" : 5, "data" : { "rarity" : "lamp_keeper_U" }},
+            { "type" : "trinket", "chances" : 3, "data" : { "rarity" : "lamp_keeper_R" }},
+            { "type" : "trinket", "chances" : 0, "data" : { "rarity" : "lamp_keeper_VR" }}
+         ]
+      },
+      {
+         "id" : "FF_LK_T",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "trinket", "chances" : 4, "data" : { "rarity" : "very_common" }},
+            { "type" : "trinket", "chances" : 3, "data" : { "rarity" : "common" }},
+            { "type" : "trinket", "chances" : 2, "data" : { "rarity" : "uncommon" }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "rare" }},
+            { "type" : "trinket", "chances" : 4, "data" : { "rarity" : "lamp_keeper_U" }},
+            { "type" : "trinket", "chances" : 4, "data" : { "rarity" : "lamp_keeper_R" }},
+            { "type" : "trinket", "chances" : 2, "data" : { "rarity" : "lamp_keeper_VR" }}
+         ]
+      },
+      {
+         "id" : "FF_LK_T",
+         "difficulty" : 6,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "trinket", "chances" : 4, "data" : { "rarity" : "very_common" }},
+            { "type" : "trinket", "chances" : 3, "data" : { "rarity" : "common" }},
+            { "type" : "trinket", "chances" : 2, "data" : { "rarity" : "uncommon" }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "rare" }},
+            { "type" : "trinket", "chances" : 3, "data" : { "rarity" : "lamp_keeper_U" }},
+            { "type" : "trinket", "chances" : 4, "data" : { "rarity" : "lamp_keeper_R" }},
+            { "type" : "trinket", "chances" : 3, "data" : { "rarity" : "lamp_keeper_VR" }}
+         ]
+      },
+      {
+         "id" : "FF_LK_T",
+         "difficulty" : 7,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "trinket", "chances" : 4, "data" : { "rarity" : "very_common" }},
+            { "type" : "trinket", "chances" : 3, "data" : { "rarity" : "common" }},
+            { "type" : "trinket", "chances" : 2, "data" : { "rarity" : "uncommon" }},
+            { "type" : "trinket", "chances" : 1, "data" : { "rarity" : "rare" }},
+            { "type" : "trinket", "chances" : 3, "data" : { "rarity" : "lamp_keeper_U" }},
+            { "type" : "trinket", "chances" : 4, "data" : { "rarity" : "lamp_keeper_R" }},
+            { "type" : "trinket", "chances" : 3, "data" : { "rarity" : "lamp_keeper_VR" }}
+         ]
+      },
+      
+      {
+         "id" : "FF_LK_lamp",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 14, "data" : { }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "hurricane_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "firmament_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "abyssal_lamp", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "FF_LK_lamp",
+         "difficulty" : 2,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 14, "data" : { }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "hurricane_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "firmament_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "abyssal_lamp", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "FF_LK_lamp",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 12, "data" : { }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "hurricane_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "estate", "id" : "firmament_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "estate", "id" : "abyssal_lamp", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "FF_LK_lamp",
+         "difficulty" : 4,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 12, "data" : { }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "hurricane_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "estate", "id" : "firmament_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "estate", "id" : "abyssal_lamp", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "FF_LK_lamp",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 10, "data" : { }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "hurricane_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "estate", "id" : "firmament_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "estate", "id" : "abyssal_lamp", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "FF_LK_lamp",
+         "difficulty" : 6,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 10, "data" : { }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "hurricane_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "estate", "id" : "firmament_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "estate", "id" : "abyssal_lamp", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "FF_LK_lamp",
+         "difficulty" : 7,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 10, "data" : { }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "supply", "id" : "hurricane_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "estate", "id" : "firmament_lamp", "amount" : 1 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "estate", "id" : "abyssal_lamp", "amount" : 1 }}
+         ]
+      },
+      
+      {
+         "id" : "FF_LK_G",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 12, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gem", "id" : "abyss_amethyst", "amount" : 1 }}
+         ]
+      }
+   ]
+}

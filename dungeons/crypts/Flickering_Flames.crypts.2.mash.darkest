@@ -1,0 +1,41 @@
+hall: .chance 0.5 .types skeleton_common_A skeleton_common_A skeleton_common_A lamp_keeper_A
+hall: .chance 0.5 .types skeleton_common_A skeleton_common_A skeleton_arbalist_A lamp_keeper_A
+hall: .chance 0.5 .types skeleton_common_A skeleton_common_A skeleton_courtier_A lamp_keeper_A
+hall: .chance 0.5 .types skeleton_common_A skeleton_militia_A skeleton_arbalist_A lamp_keeper_A
+hall: .chance 0.5 .types skeleton_common_A skeleton_militia_A skeleton_courtier_A lamp_keeper_A
+hall: .chance 0.5 .types skeleton_defender_A skeleton_common_A skeleton_arbalist_A lamp_keeper_A
+hall: .chance 0.5 .types skeleton_defender_A skeleton_common_A skeleton_courtier_A lamp_keeper_A
+hall: .chance 0.5 .types skeleton_defender_A skeleton_militia_A skeleton_arbalist_A lamp_keeper_A
+hall: .chance 0.5 .types skeleton_defender_A skeleton_militia_A skeleton_courtier_A lamp_keeper_A
+hall: .chance 0.5 .types skeleton_defender_A cultist_brawler_A cultist_witch_A lamp_keeper_A
+hall: .chance 0.5 .types skeleton_defender_A cultist_brawler_A skeleton_arbalist_A lamp_keeper_A
+hall: .chance 0.5 .types skeleton_defender_A cultist_brawler_A skeleton_courtier_A lamp_keeper_A
+hall: .chance 0.5 .types cultist_brawler_A cultist_brawler_A cultist_witch_A lamp_keeper_A
+hall: .chance 0.5 .types cultist_brawler_A cultist_brawler_A skeleton_courtier_A lamp_keeper_A
+hall: .chance 0.5 .types cultist_brawler_A cultist_brawler_A madman_A lamp_keeper_A
+hall: .chance 0.5 .types cultist_brawler_A skeleton_militia_A cultist_witch_A lamp_keeper_A
+hall: .chance 0.5 .types cultist_brawler_A skeleton_militia_A skeleton_courtier_A lamp_keeper_A
+hall: .chance 0.5 .types cultist_brawler_A skeleton_militia_A madman_A lamp_keeper_A
+hall: .chance 0.5 .types brigand_blood_A brigand_fusilier_A lamp_keeper_A
+hall: .chance 0.5 .types brigand_cutthroat_A brigand_cutthroat_A brigand_fusilier_A lamp_keeper_A
+
+room: .chance 0.5 .types skeleton_common_A skeleton_common_A skeleton_arbalist_A lamp_keeper_A
+room: .chance 0.5 .types skeleton_common_A skeleton_common_A skeleton_courtier_A lamp_keeper_A
+room: .chance 0.5 .types skeleton_common_A skeleton_militia_A skeleton_arbalist_A lamp_keeper_A
+room: .chance 0.5 .types skeleton_common_A skeleton_militia_A skeleton_courtier_A lamp_keeper_A
+room: .chance 0.5 .types skeleton_defender_A skeleton_common_A skeleton_arbalist_A lamp_keeper_A
+room: .chance 0.5 .types skeleton_defender_A skeleton_common_A skeleton_courtier_A lamp_keeper_A
+room: .chance 0.5 .types skeleton_defender_A skeleton_militia_A skeleton_arbalist_A lamp_keeper_A
+room: .chance 0.5 .types skeleton_defender_A skeleton_militia_A skeleton_courtier_A lamp_keeper_A
+room: .chance 0.5 .types skeleton_defender_A cultist_brawler_A cultist_witch_A lamp_keeper_A
+room: .chance 0.5 .types skeleton_defender_A cultist_brawler_A skeleton_arbalist_A lamp_keeper_A
+room: .chance 0.5 .types skeleton_defender_A cultist_brawler_A skeleton_courtier_A lamp_keeper_A
+room: .chance 0.5 .types cultist_brawler_A cultist_brawler_A cultist_witch_A lamp_keeper_A
+room: .chance 0.5 .types cultist_brawler_A cultist_brawler_A skeleton_courtier_A lamp_keeper_A
+room: .chance 0.5 .types cultist_brawler_A skeleton_militia_A cultist_witch_A lamp_keeper_A
+room: .chance 0.5 .types cultist_brawler_A skeleton_militia_A skeleton_courtier_A lamp_keeper_A
+room: .chance 0.5 .types brigand_blood_A brigand_fusilier_A lamp_keeper_A
+room: .chance 0.5 .types skeleton_captain_A skeleton_courtier_A lamp_keeper_A
+room: .chance 0.5 .types skeleton_captain_A skeleton_arbalist_A lamp_keeper_A
+room: .chance 0.5 .types skeleton_captain_A skeleton_militia_A lamp_keeper_A
+room: .chance 0.5 .types skeleton_captain_A madman_A lamp_keeper_A

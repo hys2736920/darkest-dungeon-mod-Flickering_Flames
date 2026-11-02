@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <language id="english">
+    
+      <entry id="effect_tooltip_target_group"><![CDATA[Enemy Party:]]></entry>
+      <entry id="effect_tooltip_target_group_buff"><![CDATA[{colour_start|buff}Buff Target:{colour_end}]]></entry>
+      <entry id="effect_tooltip_target_group_debuff"><![CDATA[{colour_start|debuff}Debuff Target:{colour_end}]]></entry>
+      <entry id="effect_tooltip_target_group_other"><![CDATA[Other Target:]]></entry>
+      <entry id="effect_tooltip_target_group_other_buff"><![CDATA[{colour_start|buff}Buff Other Target:{colour_end}]]></entry>
+      <entry id="effect_tooltip_target_group_other_debuff"><![CDATA[{colour_start|debuff}Debuff Other Target:{colour_end}]]></entry>
+      <entry id="effect_tooltip_target_enemy_group"><![CDATA[{colour_start|buff}Target Enemy Group:{colour_end}]]></entry>
+      <entry id="effect_tooltip_target_enemy_group_buff"><![CDATA[{colour_start|buff}Buff Target Enemy Group:{colour_end}]]></entry>
+      <entry id="effect_tooltip_target_enemy_group_debuff"><![CDATA[{colour_start|buff}Debuff Target Enemy Group:{colour_end}]]></entry>
+      <entry id="effect_tooltip_this_trinket"><![CDATA[This Trinket:]]></entry>
+
+      <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}Bleed{colour_end} amount when applied]]></entry>
+			<entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}Blight{colour_end} amount when applied]]></entry>
+      <entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Amount]]></entry>
+      <entry id="buff_stat_tooltip_hp_heal_dot_amount_received_percent"><![CDATA[%+d%% {colour_start|healhp}Restoration{colour_end} Received]]></entry>
+      <entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[Ignores Stealth]]></entry>
+      <entry id="buff_stat_tooltip_ignore_guard"><![CDATA[Ignores Guard]]></entry>
+      <entry id="buff_stat_tooltip_ignore_protection"><![CDATA[Armor Piercing: %+d%%]]></entry>
+      <entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[%d%% Torch Increase]]></entry>
+      <entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%d%% Torch Decrease]]></entry>
+      <entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[On Attack: Random target %d%%.]]></entry>
+      
+      <entry id="str_ui_burn"><![CDATA[Burn]]></entry>
+      <entry id="effect_tooltip_cure_burn"><![CDATA[Cure {colour_start|burn}Burn{colour_end}]]></entry>
+	    <entry id="effect_tooltip_dot_burn"><![CDATA[{colour_start|burn}Burn{colour_end}]]></entry>
+      <entry id="effect_tooltip_dot_burn_format"><![CDATA[%d stacks]]></entry>
+      <entry id="tray_icon_tooltip_burn_format"><![CDATA[{colour_start|burn}Burn{colour_end}: %d stacks]]></entry>
+      <entry id="buff_rule_data_tooltip_burning"><![CDATA[{colour_start|burn}Burn{colour_end}]]></entry>
+
+      <entry id="trinket_trigger_limit"><![CDATA[Trigger Limit: %d
+      ]]></entry>
+      <entry id="effect_trigger_limit_set"><![CDATA[Trigger Limit changes to %d
+      ]]></entry>
+      <entry id="effect_trigger_limit_increase"><![CDATA[Trigger Limit +%d~%d
+      ]]></entry>
+      <entry id="effect_trigger_limit_decrease"><![CDATA[Trigger Limit -%d~%d
+      ]]></entry>
+      <entry id="str_trinket_transform_on_trigger_limit_exhausted"><![CDATA[When Trigger Limit Exhausted: Transform into %s]]></entry>
+      
+      <entry id="trinket_attack_skill_additional_effects"><![CDATA[On Attack:]]></entry>
+      <entry id="trinket_attack_skill_additional_effects_hit_trigger_effect"><![CDATA[On Attack Hit:]]></entry>
+      <entry id="trinket_attack_skill_additional_effects_miss_trigger_effect"><![CDATA[On Attack Miss:]]></entry>
+      <entry id="trinket_attack_skill_additional_effects_hit_miss_trigger_effect"><![CDATA[On Attack:]]></entry>
+
+      <entry id="trinket_friendly_skill_additional_effects"><![CDATA[Friendly Skill:]]></entry>
+      <entry id="trinket_friendly_skill_additional_effects_trigger_effect"><![CDATA[Friendly Skill:]]></entry>
+
+      <entry id="trinket_was_hit_additional_effects"><![CDATA[On Being Hit:]]></entry>
+      <entry id="trinket_was_hit_additional_effects_trigger_effect"><![CDATA[On Being Hit:]]></entry>
+      
+      <entry id="trinket_on_dodge_additional_effects"><![CDATA[On Dodge:]]></entry>
+      <entry id="trinket_on_dodge_additional_effects_trigger_effect"><![CDATA[On Dodge:]]></entry>
+
+      <entry id="trinket_turn_end_additional_effects_hit"><![CDATA[After Turn End:]]></entry>
+      <entry id="trinket_turn_end_additional_effects_hit_trigger_effect"><![CDATA[After Turn End:]]></entry>
+      <entry id="trinket_turn_end_additional_effects_miss"><![CDATA[After Turn End:]]></entry>
+      <entry id="trinket_turn_end_additional_effects_miss_trigger_effect"><![CDATA[After Turn End:]]></entry>
+      <entry id="trinket_turn_end_additional_effects_hit_miss"><![CDATA[After Turn End:]]></entry>
+      <entry id="trinket_turn_end_additional_effects_hit_miss_trigger_effect"><![CDATA[After Turn End:]]></entry>
+
+      <entry id="trinket_battle_finished_successfully_additional_effects"><![CDATA[On Combat End:]]></entry>
+      <entry id="trinket_battle_finished_successfully_additional_effects_trigger_effect"><![CDATA[On Combat End:]]></entry>
+
+    </language>
+
+    <language id="schinese">
+
+      <entry id="effect_tooltip_target_group"><![CDATA[目标全体：]]></entry>
+      <entry id="effect_tooltip_target_group_buff"><![CDATA[{colour_start|buff}目标全体增益：{colour_end}]]></entry>
+      <entry id="effect_tooltip_target_group_debuff"><![CDATA[{colour_start|debuff}减益目标全体：{colour_end}]]></entry>
+      <entry id="effect_tooltip_target_group_other"><![CDATA[其它目标：]]></entry>
+      <entry id="effect_tooltip_target_group_other_buff"><![CDATA[{colour_start|buff}增益其它目标：{colour_end}]]></entry>
+      <entry id="effect_tooltip_target_group_other_debuff"><![CDATA[{colour_start|debuff}减益其它目标：{colour_end}]]></entry>
+      <entry id="effect_tooltip_target_enemy_group"><![CDATA[{colour_start|buff}目标敌方全体：{colour_end}]]></entry>
+      <entry id="effect_tooltip_target_enemy_group_buff"><![CDATA[{colour_start|buff}增益目标敌方全体：{colour_end}]]></entry>
+      <entry id="effect_tooltip_target_enemy_group_debuff"><![CDATA[{colour_start|buff}减益目标敌方全体：{colour_end}]]></entry>
+      <entry id="effect_tooltip_this_trinket"><![CDATA[这件饰品：]]></entry>
+
+      <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}流血{colour_end}效果]]></entry>
+      <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}腐蚀{colour_end}效果]]></entry>
+      <entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% {colour_start|healhp}愈合{colour_end}效果]]></entry>
+      <entry id="buff_stat_tooltip_hp_heal_dot_amount_received_percent"><![CDATA[%+d%% 所受{colour_start|healhp}愈合{colour_end}效果]]></entry>
+      <entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[无视潜行]]></entry>
+      <entry id="buff_stat_tooltip_ignore_guard"><![CDATA[无视守护]]></entry>
+      <entry id="buff_stat_tooltip_ignore_protection"><![CDATA[%+d%%穿甲]]></entry>
+      <entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[%d%%亮度提升效果]]></entry>
+      <entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%d%%亮度降低效果]]></entry>
+      <entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[攻击：随机目标几率为 %d%%。]]></entry>
+      
+      <entry id="str_ui_burn"><![CDATA[灼烧]]></entry>
+      <entry id="effect_tooltip_cure_burn"><![CDATA[治愈{colour_start|burn}灼烧{colour_end}]]></entry>
+	    <entry id="effect_tooltip_dot_burn"><![CDATA[{colour_start|burn}灼烧{colour_end}]]></entry>
+      <entry id="effect_tooltip_dot_burn_format"><![CDATA[%d层]]></entry>
+      <entry id="tray_icon_tooltip_burn_format"><![CDATA[{colour_start|burn}灼烧{colour_end}：%d层]]></entry>
+      <entry id="buff_rule_data_tooltip_burning"><![CDATA[{colour_start|burn}灼烧{colour_end}]]></entry>
+
+      <entry id="trinket_trigger_limit"><![CDATA[触发次数：%d
+      ]]></entry>
+      <entry id="effect_trigger_limit_set"><![CDATA[触发次数变为%d
+      ]]></entry>
+      <entry id="effect_trigger_limit_increase"><![CDATA[触发次数+%d~%d
+      ]]></entry>
+      <entry id="effect_trigger_limit_decrease"><![CDATA[触发次数-%d~%d
+      ]]></entry>
+      <entry id="str_trinket_transform_on_trigger_limit_exhausted"><![CDATA[触发次数耗尽时：转变为%s]]></entry>
+      
+      <entry id="trinket_attack_skill_additional_effects"><![CDATA[攻击时：]]></entry>
+      <entry id="trinket_attack_skill_additional_effects_hit_trigger_effect"><![CDATA[攻击命中时：]]></entry>
+      <entry id="trinket_attack_skill_additional_effects_miss_trigger_effect"><![CDATA[攻击未命中时：]]></entry>
+      <entry id="trinket_attack_skill_additional_effects_hit_miss_trigger_effect"><![CDATA[攻击时：]]></entry>
+
+      <entry id="trinket_friendly_skill_additional_effects"><![CDATA[友方技能：]]></entry>
+      <entry id="trinket_friendly_skill_additional_effects_trigger_effect"><![CDATA[友方技能：]]></entry>
+
+      <entry id="trinket_was_hit_additional_effects"><![CDATA[被命中时：]]></entry>
+      <entry id="trinket_was_hit_additional_effects_trigger_effect"><![CDATA[被命中时：]]></entry>
+      
+      <entry id="trinket_on_dodge_additional_effects"><![CDATA[闪避时：]]></entry>
+      <entry id="trinket_on_dodge_additional_effects_trigger_effect"><![CDATA[闪避时：]]></entry>
+
+      <entry id="trinket_turn_end_additional_effects_hit"><![CDATA[自身行动结束时：]]></entry>
+      <entry id="trinket_turn_end_additional_effects_hit_trigger_effect"><![CDATA[自身行动结束时：]]></entry>
+      <entry id="trinket_turn_end_additional_effects_miss"><![CDATA[自身行动结束时：]]></entry>
+      <entry id="trinket_turn_end_additional_effects_miss_trigger_effect"><![CDATA[自身行动结束时：]]></entry>
+      <entry id="trinket_turn_end_additional_effects_hit_miss"><![CDATA[自身行动结束时：]]></entry>
+      <entry id="trinket_turn_end_additional_effects_hit_miss_trigger_effect"><![CDATA[自身行动结束时：]]></entry>
+
+      <entry id="trinket_battle_finished_successfully_additional_effects"><![CDATA[战斗胜利时：]]></entry>
+      <entry id="trinket_battle_finished_successfully_additional_effects_trigger_effect"><![CDATA[战斗胜利时：]]></entry>
+
+    </language>
+
+    <language id="tchinese">
+
+      <entry id="effect_tooltip_target_group"><![CDATA[目標全體：]]></entry>
+      <entry id="effect_tooltip_target_group_buff"><![CDATA[{colour_start|buff}目標全體增益：{colour_end}]]></entry>
+      <entry id="effect_tooltip_target_group_debuff"><![CDATA[{colour_start|debuff}減益目標全體：{colour_end}]]></entry>
+      <entry id="effect_tooltip_target_group_other"><![CDATA[其它目標：]]></entry>
+      <entry id="effect_tooltip_target_group_other_buff"><![CDATA[{colour_start|buff}增益其它目標：{colour_end}]]></entry>
+      <entry id="effect_tooltip_target_group_other_debuff"><![CDATA[{colour_start|debuff}減益其它目標：{colour_end}]]></entry>
+      <entry id="effect_tooltip_target_enemy_group"><![CDATA[{colour_start|buff}目標敵方全體：{colour_end}]]></entry>
+      <entry id="effect_tooltip_target_enemy_group_buff"><![CDATA[{colour_start|buff}增益目標敵方全體：{colour_end}]]></entry>
+      <entry id="effect_tooltip_target_enemy_group_debuff"><![CDATA[{colour_start|buff}減益目標敵方全體：{colour_end}]]></entry>
+      <entry id="effect_tooltip_this_trinket"><![CDATA[這件飾品：]]></entry>
+
+      <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[%+d%% {colour_start|bleed}流血{colour_end}效果]]></entry>
+      <entry id="buff_stat_tooltip_hp_dot_poison_amount_percent"><![CDATA[%+d%% {colour_start|blight}腐蝕{colour_end}效果]]></entry>
+      <entry id="buff_stat_tooltip_hp_heal_dot_amount_percent"><![CDATA[%+d%% {colour_start|healhp}癒合{colour_end}效果]]></entry>
+      <entry id="buff_stat_tooltip_hp_heal_dot_amount_received_percent"><![CDATA[%+d%% 所受{colour_start|healhp}癒合{colour_end}效果]]></entry>
+      <entry id="buff_stat_tooltip_ignore_stealth"><![CDATA[無視潛行]]></entry>
+      <entry id="buff_stat_tooltip_ignore_guard"><![CDATA[無視守護]]></entry>
+      <entry id="buff_stat_tooltip_ignore_protection"><![CDATA[%+d%%穿甲]]></entry>
+      <entry id="buff_stat_tooltip_torch_increase_percent"><![CDATA[%d%%亮度提升效果]]></entry>
+      <entry id="buff_stat_tooltip_torch_decrease_percent"><![CDATA[%d%%亮度降低效果]]></entry>
+      <entry id="buff_stat_tooltip_random_target_attack_chance"><![CDATA[攻擊：隨機目標機率為 %d%%。]]></entry>
+      
+      <entry id="str_ui_burn"><![CDATA[灼燒]]></entry>
+      <entry id="effect_tooltip_cure_burn"><![CDATA[治癒{colour_start|burn}灼燒{colour_end}]]></entry>
+	    <entry id="effect_tooltip_dot_burn"><![CDATA[{colour_start|burn}灼燒{colour_end}]]></entry>
+      <entry id="effect_tooltip_dot_burn_format"><![CDATA[%d層]]></entry>
+      <entry id="tray_icon_tooltip_burn_format"><![CDATA[{colour_start|burn}灼燒{colour_end}：%d層]]></entry>
+      <entry id="buff_rule_data_tooltip_burning"><![CDATA[{colour_start|burn}灼燒{colour_end}]]></entry>
+      
+      <entry id="trinket_trigger_limit"><![CDATA[觸發次數：%d
+      ]]></entry>
+      <entry id="effect_trigger_limit_set"><![CDATA[觸發次數變為%d
+      ]]></entry>
+      <entry id="effect_trigger_limit_increase"><![CDATA[觸發次數+%d~%d
+      ]]></entry>
+      <entry id="effect_trigger_limit_decrease"><![CDATA[觸發次數-%d~%d
+      ]]></entry>
+      <entry id="str_trinket_transform_on_trigger_limit_exhausted"><![CDATA[觸發次數耗盡時：轉變為%s]]></entry>
+      
+      <entry id="trinket_attack_skill_additional_effects"><![CDATA[攻擊時：]]></entry>
+      <entry id="trinket_attack_skill_additional_effects_hit_trigger_effect"><![CDATA[攻擊命中時：]]></entry>
+      <entry id="trinket_attack_skill_additional_effects_miss_trigger_effect"><![CDATA[攻擊未命中時：]]></entry>
+      <entry id="trinket_attack_skill_additional_effects_hit_miss_trigger_effect"><![CDATA[攻擊時：]]></entry>
+
+      <entry id="trinket_friendly_skill_additional_effects"><![CDATA[友方技能：]]></entry>
+      <entry id="trinket_friendly_skill_additional_effects_trigger_effect"><![CDATA[友方技能：]]></entry>
+
+      <entry id="trinket_was_hit_additional_effects"><![CDATA[被命中時：]]></entry>
+      <entry id="trinket_was_hit_additional_effects_trigger_effect"><![CDATA[被命中時：]]></entry>
+      
+      <entry id="trinket_on_dodge_additional_effects"><![CDATA[閃避時：]]></entry>
+      <entry id="trinket_on_dodge_additional_effects_trigger_effect"><![CDATA[閃避時：]]></entry>
+
+      <entry id="trinket_turn_end_additional_effects_hit"><![CDATA[自身行動結束時：]]></entry>
+      <entry id="trinket_turn_end_additional_effects_hit_trigger_effect"><![CDATA[自身行動結束時：]]></entry>
+      <entry id="trinket_turn_end_additional_effects_miss"><![CDATA[自身行動結束時：]]></entry>
+      <entry id="trinket_turn_end_additional_effects_miss_trigger_effect"><![CDATA[自身行動結束時：]]></entry>
+      <entry id="trinket_turn_end_additional_effects_hit_miss"><![CDATA[自身行動結束時：]]></entry>
+      <entry id="trinket_turn_end_additional_effects_hit_miss_trigger_effect"><![CDATA[自身行動結束時：]]></entry>
+
+      <entry id="trinket_battle_finished_successfully_additional_effects"><![CDATA[戰鬥勝利時：]]></entry>
+      <entry id="trinket_battle_finished_successfully_additional_effects_trigger_effect"><![CDATA[戰鬥勝利時：]]></entry>
+
+    </language>
+	
+</root>	

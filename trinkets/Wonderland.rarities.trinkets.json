@@ -1,0 +1,10 @@
+{
+   "rarities":
+   [
+		{
+            "id": "Wonderland",
+            "award_category": "battle",
+            "insert_before": "trophy"
+        }
+	]
+}

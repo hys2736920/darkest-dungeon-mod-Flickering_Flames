@@ -1,0 +1,45 @@
+hall: .chance 0.5 .types fishman_harpoon_C fishman_harpoon_C fishman_harpoon_C lamp_keeper_C
+hall: .chance 0.5 .types fishman_harpoon_C fishman_harpoon_C fishman_shaman_C lamp_keeper_C
+hall: .chance 0.5 .types bloated_corpse_C fishman_harpoon_C fishman_harpoon_C lamp_keeper_C
+hall: .chance 0.5 .types bloated_corpse_C fishman_harpoon_C fishman_shaman_C lamp_keeper_C
+hall: .chance 0.5 .types bloated_corpse_C bloated_corpse_C fishman_harpoon_C lamp_keeper_C
+hall: .chance 0.5 .types bloated_corpse_C bloated_corpse_C fishman_shaman_C lamp_keeper_C
+hall: .chance 0.5 .types cultist_brawler_C cultist_brawler_C cultist_witch_C lamp_keeper_C
+hall: .chance 0.5 .types cultist_brawler_C cultist_brawler_C fishman_shaman_C lamp_keeper_C
+hall: .chance 0.5 .types cultist_brawler_C cultist_brawler_C madman_C lamp_keeper_C
+hall: .chance 0.5 .types cultist_brawler_C fishman_harpoon_C cultist_witch_C lamp_keeper_C
+hall: .chance 0.5 .types cultist_brawler_C fishman_harpoon_C fishman_shaman_C lamp_keeper_C
+hall: .chance 0.5 .types cultist_brawler_C fishman_harpoon_C madman_C lamp_keeper_C
+hall: .chance 0.5 .types brigand_blood_C brigand_fusilier_C lamp_keeper_C
+hall: .chance 0.5 .types brigand_cutthroat_C brigand_cutthroat_C brigand_fusilier_C lamp_keeper_C
+hall: .chance 0.5 .types fishman_crabby_C fishman_harpoon_C lamp_keeper_C
+hall: .chance 0.5 .types fishman_crabby_C fishman_shaman_C lamp_keeper_C
+hall: .chance 0.5 .types fishman_crabby_C bloated_corpse_C lamp_keeper_C
+hall: .chance 0.5 .types fishman_crabby_C madman_C lamp_keeper_C
+hall: .chance 0.5 .types bloated_corpse_C ghoul_C lamp_keeper_C
+hall: .chance 0.5 .types brigand_cutthroat_C brigand_raider_D brigand_fusilier_C lamp_keeper_C
+hall: .chance 0.5 .types brigand_cutthroat_C brigand_cutthroat_C brigand_hunter_D lamp_keeper_C
+
+room: .chance 0.5 .types fishman_harpoon_C fishman_harpoon_C fishman_harpoon_C lamp_keeper_C
+room: .chance 0.5 .types fishman_harpoon_C fishman_harpoon_C fishman_shaman_C lamp_keeper_C
+room: .chance 0.5 .types bloated_corpse_C fishman_harpoon_C fishman_harpoon_C lamp_keeper_C
+room: .chance 0.5 .types bloated_corpse_C fishman_harpoon_C fishman_shaman_C lamp_keeper_C
+room: .chance 0.5 .types bloated_corpse_C bloated_corpse_C fishman_harpoon_C lamp_keeper_C
+room: .chance 0.5 .types bloated_corpse_C bloated_corpse_C fishman_shaman_C lamp_keeper_C
+room: .chance 0.5 .types cultist_brawler_C cultist_brawler_C cultist_witch_C lamp_keeper_C
+room: .chance 0.5 .types cultist_brawler_C cultist_brawler_C fishman_shaman_C lamp_keeper_C
+room: .chance 0.5 .types cultist_brawler_C fishman_harpoon_C cultist_witch_C lamp_keeper_C
+room: .chance 0.5 .types cultist_brawler_C fishman_harpoon_C fishman_shaman_C lamp_keeper_C
+room: .chance 0.5 .types brigand_blood_C brigand_fusilier_C lamp_keeper_C
+room: .chance 0.5 .types octotank_C fishman_harpoon_C fishman_shaman_C lamp_keeper_C
+room: .chance 0.5 .types bloated_corpse_C octotank_C fishman_shaman_C lamp_keeper_C
+room: .chance 0.5 .types octotank_C fishman_harpoon_C bloated_corpse_C lamp_keeper_C
+room: .chance 0.5 .types octotank_C octotank_C fishman_harpoon_C lamp_keeper_C
+room: .chance 0.5 .types octotank_C cultist_brawler_C cultist_witch_C lamp_keeper_C
+room: .chance 0.5 .types octotank_C cultist_brawler_C madman_C lamp_keeper_C
+room: .chance 0.5 .types fishman_crabby_C fishman_harpoon_C lamp_keeper_C 
+room: .chance 0.5 .types fishman_crabby_C fishman_shaman_C lamp_keeper_C 
+room: .chance 0.5 .types fishman_crabby_C bloated_corpse_C lamp_keeper_C
+room: .chance 0.5 .types fishman_crabby_C madman_C lamp_keeper_C
+room: .chance 0.5 .types brigand_cutthroat_C brigand_cutthroat_C brigand_hunter_D lamp_keeper_C
+room: .chance 0.5 .types brigand_raider_D brigand_raider_D brigand_hunter_D lamp_keeper_C

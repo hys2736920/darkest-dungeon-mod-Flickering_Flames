@@ -1,0 +1,53 @@
+//隨機亮度
+effect: .name "Light_Initialization_1" .target "global" .curio_result_type "neutral" .chance 100% .torch_decrease 100 .on_hit true .on_miss true .apply_once true
+effect: .name "Light_Initialization_2" .target "global" .curio_result_type "neutral" .chance 100% .torch_increase 50 .on_hit true .on_miss true .apply_once true
+
+effect: .name "Light_Random_Increase_1" .target "global" .curio_result_type "neutral" .chance 20% .torch_increase 15 .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "Light_Random_Increase_2" .target "global" .curio_result_type "neutral" .chance 10% .torch_increase 5 .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "Light_Random_Decrease_1" .target "global" .curio_result_type "neutral" .chance 20% .torch_decrease 15 .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "Light_Random_Decrease_2" .target "global" .curio_result_type "neutral" .chance 10% .torch_decrease 5 .on_hit true .on_miss true .apply_once true .queue true
+
+
+
+//隨機火光效果
+effect: .name "FF_clear_buff" .target "target_group" .curio_result_type "positive" .chance 100% .buff_ids "flickering_flames_clear_buff" .on_hit true .on_miss true .apply_once true
+
+effect: .name "Spark_of_Life" .target "target_group" .curio_result_type "positive" .chance 6% .torch_increase 5 .buff_ids "T_Spark_of_Life" "flickering_flames_Life_1" "flickering_flames_Life_2" "flickering_flames_Life_3" .buff_source_type bsrc_town .on_hit true .on_miss false .apply_once true .queue true
+effect: .name "Candlelight_of_Hope" .target "target_group" .curio_result_type "positive" .chance 3% .torch_increase 10 .buff_ids "T_Candlelight_of_Hope" "flickering_flames_Hope_1" "flickering_flames_Hope_2" "flickering_flames_Hope_3" "flickering_flames_Hope_4" .buff_source_type bsrc_town .on_hit true .on_miss false .apply_once true .queue true
+effect: .name "Lamplight_of_Guidance" .target "target_group" .curio_result_type "positive" .chance 4% .torch_increase 20 .buff_ids "T_Lamplight_of_Guidance" "flickering_flames_Guidance_1" "flickering_flames_Guidance_2" "flickering_flames_Guidance_3" "flickering_flames_Guidance_4" .buff_source_type bsrc_town .on_hit true .on_miss false .apply_once true .queue true
+effect: .name "Dawn_of_the_Firmament" .target "target_group" .curio_result_type "positive" .chance 1% .torch_increase 999 .buff_ids "T_Dawn_of_the_Firmament" "flickering_flames_Firmament_1_A" "flickering_flames_Firmament_1_B" "flickering_flames_Firmament_2" "flickering_flames_Firmament_3" "flickering_flames_Firmament_4" "flickering_flames_Firmament_5" "flickering_flames_Firmament_6" .buff_source_type bsrc_town .on_hit true .on_miss false .use_item_type supply .use_item_id "Get_Stress" .apply_once true .queue true
+
+effect: .name "Shadowflame_of_Unease" .target "target_group" .curio_result_type "negative" .chance 6% .torch_decrease 5 .buff_ids "T_Shadowflame_of_Unease" "flickering_flames_Unease_1" "flickering_flames_Unease_2" "flickering_flames_Unease_3" .buff_source_type bsrc_town .on_hit true .on_miss false .apply_once true .queue true
+effect: .name "Glare_of_Distortion" .target "target_group" .curio_result_type "negative" .chance 4% .torch_increase 20 .buff_ids "T_Glare_of_Distortion" "flickering_flames_Distortion_1" "flickering_flames_Distortion_2" "flickering_flames_Distortion_3" .buff_source_type bsrc_town .on_hit true .on_miss false .apply_once true .queue true
+effect: .name "Deathfire_of_Nightmare" .target "target_group" .curio_result_type "negative" .chance 3% .torch_decrease 30 .buff_ids "T_Deathfire_of_Nightmare" "flickering_flames_Nightmare_1" "flickering_flames_Nightmare_2" "flickering_flames_Nightmare_3" "flickering_flames_Nightmare_4" "flickering_flames_Nightmare_5" .buff_source_type bsrc_town .on_hit true .on_miss false .apply_once true .queue true
+effect: .name "Darkness_of_Abyss" .target "target_group" .curio_result_type "negative" .chance 1% .torch_decrease 999 .buff_ids "T_Darkness_of_Abyss" "flickering_flames_Abyss_1_A" "flickering_flames_Abyss_1_B" "flickering_flames_Abyss_2" "flickering_flames_Abyss_3" "flickering_flames_Abyss_4" "flickering_flames_Abyss_5" "flickering_flames_Abyss_6" .buff_source_type bsrc_town .on_hit true .on_miss false .use_item_type supply .use_item_id "Get_Stress" .apply_once true .queue true
+
+effect: .name "Fury_of_Brutality" .target "target_group" .curio_result_type "neutral" .chance 6% .torch_increase 15 .buff_ids "T_Fury_of_Brutality" "flickering_flames_Brutality_1_A" "flickering_flames_Brutality_1_B" "flickering_flames_Brutality_2" "flickering_flames_Brutality_3" "flickering_flames_Brutality_4" "flickering_flames_Brutality_5" .buff_source_type bsrc_town .on_hit true .on_miss false .apply_once true .queue true
+effect: .name "Greenflame_of_Decay" .target "target_group" .curio_result_type "neutral" .chance 4% .torch_decrease 5 .buff_ids "T_Greenflame_of_Decay" "flickering_flames_Decay_1" "flickering_flames_Decay_2" "flickering_flames_Decay_3" .buff_source_type bsrc_town .on_hit true .on_miss false .apply_once true .queue true
+effect: .name "Redflame_of_Blood" .target "target_group" .curio_result_type "neutral" .chance 4% .torch_decrease 5 .buff_ids "T_Redflame_of_Blood" "flickering_flames_Blood_1" "flickering_flames_Blood_2" "flickering_flames_Blood_3" .buff_source_type bsrc_town .on_hit true .on_miss false .apply_once true .queue true
+effect: .name "Frostfire_of_Sloth" .target "target_group" .curio_result_type "neutral" .chance 3% .torch_decrease 25 .buff_ids "T_Frostfire_of_Sloth" "flickering_flames_Sloth_1" "flickering_flames_Sloth_2" "flickering_flames_Sloth_3" "flickering_flames_Sloth_4" .buff_source_type bsrc_town .on_hit true .on_miss false .apply_once true .queue true
+
+
+
+//地區效果
+effect: .name "Area_Effect_Cove_1" .target "performer" .curio_result_type "positive" .chance 30% .duration 3 .dotHpHeal 3 .on_hit true .on_miss false .apply_once true .queue true
+effect: .name "Area_Effect_Cove_2" .target "target" .curio_result_type "negative" .chance 140% .buff_ids "FF_cove_monster_heal_down" .buff_source_type bsrc_curio .on_hit true .on_miss false .queue true
+
+effect: .name "Area_Effect_Ruins_1" .target "target" .curio_result_type "negative" .chance 140% .buff_ids "FF_crypts_monster_HP_down" .buff_source_type bsrc_curio .on_hit true .on_miss false .queue true
+
+effect: .name "Area_Effect_Warrens_1" .target "performer_group" .curio_result_type "positive" .chance 30% .buff_ids "FF_warrens_monster_DMGL" "FF_warrens_monster_DMGH" "FF_warrens_monster_SPD" .on_hit true .on_miss false .apply_once true .queue true
+
+effect: .name "Area_Effect_Weald_1" .target "performer" .curio_result_type "positive" .chance 100% .heal_percent 20% .buff_ids "FF_weald_monster_once_heal_clear" .can_crit_heal false .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "Area_Effect_Weald_2" .target "target" .curio_result_type "negative" .chance 140% .buff_ids "FF_weald_monster_prot_down" "FF_weald_monster_DMG_received" .buff_source_type bsrc_curio .on_hit true .on_miss false .queue true
+
+effect: .name "Area_Effect_Courtyard_1" .target "target" .curio_result_type "negative" .chance 150% .dotBleed 1 .duration 3 .on_hit true .on_miss false .queue true
+effect: .name "Area_Effect_Courtyard_2" .target "performer" .curio_result_type "positive" .chance 100% .keyStatus "bleeding" .heal_percent 5% .on_hit true .on_miss false
+effect: .name "Area_Effect_Courtyard_3" .target "performer" .curio_result_type "positive" .chance 100% .buff_ids "FF_courtyard_monster_DMGL", "FF_courtyard_monster_DMGH" "FF_courtyard_monster_ACC" .on_hit true .on_miss false
+
+effect: .name "Area_Effect_Farmstead_1" .target "performer_group" .curio_result_type "positive" .chance 100% .buff_ids "FF_farmstead_monster_poison_amount" "FF_farmstead_monster_dotStress" .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "Area_Effect_Farmstead_2" .target "target" .curio_result_type "negative" .chance 140% .dotStress 2 .duration 3 .on_hit true .on_miss false .apply_once true .queue true
+
+
+
+//假物品
+effect: .name "Get_Stress" .target "target_group" .curio_result_type "neutral" .chance 100% .stress 150 .on_hit true .on_miss true .queue true .apply_once true

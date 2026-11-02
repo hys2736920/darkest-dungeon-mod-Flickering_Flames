@@ -1,0 +1,220 @@
+{
+   "entries":
+   [
+      {
+         "id" : "abyss_candle",
+         "buffs" : 
+         [
+            "FF_abyss_candle_lightbelow_DMGL",
+            "FF_abyss_candle_lightbelow_DMGH",
+            "FF_abyss_candle_lightbelow_SPD",
+            "FF_abyss_candle_lightbelow_DODGE",
+            "FF_abyss_candle_lightbelow_crit",
+            "FF_abyss_STRESSDMG_15"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "FF_abyss",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "abyss_compass",
+         "buffs" : 
+         [
+            "FF_abyss_compass_lightbelow_TRAPRESIST_50",
+            "FF_abyss_compass_lightbelow_TRAPRESIST_25",
+            "FF_abyss_compass_lightbelow_SCOUTING_50",
+            "FF_abyss_compass_lightbelow_SCOUTING_25",
+            "FF_abyss_STRESSDMG_10"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "FF_abyss",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "abyss_dissonant_box",
+         "buffs" : 
+         [
+            "FF_abyss_dissonant_box_DMGL",
+            "FF_abyss_dissonant_box_DMGH",
+            "FF_abyss_dissonant_box_crit",
+            "FF_abyss_dissonant_box_stress_heal_d",
+            "FF_abyss_dissonant_box_dodge",
+            "FF_abyss_dissonant_box_ACC"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "FF_abyss",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "set_id" : "FF_broken_lullaby"
+      },
+      {
+         "id" : "abyss_musical_sheet",
+         "buffs" : 
+         [
+            "FF_abyss_musical_sheet_SPD",
+            "FF_abyss_musical_sheet_stressDMG",
+            "FF_abyss_musical_sheet_randomATK"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "FF_abyss",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "attack_skill_additional_effects": [
+            "FF_abyss_musical_sheet_dot_heal",
+            "FF_abyss_musical_sheet_stress_heal"
+         ],
+         "set_id" : "FF_broken_lullaby"
+      },
+      {
+         "id" : "abyss_sedative",
+         "buffs" : 
+         [
+            "abyss_sedative_maxhp_down",
+            "abyss_sedative_food_consumption",
+            "abyss_sedative_stress_resist"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "FF_abyss",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+
+
+      
+      {
+         "id" : "tattered_cloak",
+         "buffs" : 
+         [
+            "tattered_cloak_dodge_1",
+            "T_tattered_cloak_1",
+            "tattered_cloak_dodge_2",
+            "T_tattered_cloak_2"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "lamp_keeper_U",
+         "visual_rarity" : "uncommon",
+         "price" : 10000,
+         "limit" : 0,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "unknown_lamp",
+         "buffs" : 
+         [
+            "T_unknown_lamp"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "lamp_keeper_R",
+         "visual_rarity" : "rare",
+         "price" : 15000,
+         "limit" : 0,
+         "origin_dungeon" : "",
+         "attack_skill_additional_effects": [
+            "FF_unknown_lamp_resist_stun"
+         ],
+         "attack_crit_additional_effects": [
+            "FF_unknown_lamp_stun",
+            "FF_unknown_lamp_burn"
+         ]
+      },
+      {
+         "id" : "unknown_lamp_y",
+         "buffs" : 
+         [
+            "unknown_lamp_y_heal_down"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "lamp_keeper_VR",
+         "visual_rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "friendly_skill_additional_effects": [
+            "FF_unknown_lamp_y_buff_1",
+            "FF_unknown_lamp_y_buff_2"
+         ]
+      },
+      {
+         "id" : "unknown_lamp_p",
+         "buffs" : 
+         [
+            "unknown_lamp_p_stress",
+            "unknown_lamp_p_abyss_killer_1",
+            "unknown_lamp_p_abyss_killer_2",
+            "unknown_lamp_p_firmament_down_1",
+            "unknown_lamp_p_firmament_down_2",
+            "unknown_lamp_p_abyss_killer_3",
+            "unknown_lamp_p_firmament_down_3",
+            "unknown_lamp_p_xp_lock"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "lamp_keeper_VR",
+         "visual_rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "friendly_skill_additional_effects": [
+            ""
+         ]
+      },
+      {
+         "id" : "unknown_lamp_r",
+         "buffs" : 
+         [
+            "unknown_lamp_r_resist_bleed_down",
+            "unknown_lamp_r_healself"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "lamp_keeper_VR",
+         "visual_rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "unknown_lamp_g",
+         "buffs" : 
+         [
+            "unknown_lamp_g_heal"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "lamp_keeper_VR",
+         "visual_rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "friendly_skill_additional_effects": [
+            "FF_unknown_lamp_g_trigger"
+         ]
+      }
+   ]
+}

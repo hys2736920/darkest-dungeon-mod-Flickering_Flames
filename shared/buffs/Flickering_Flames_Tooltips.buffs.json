@@ -1,0 +1,290 @@
+{
+   "buffs":
+   [
+      {
+         "id" : "T_Spark_of_Life",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Spark_of_Life",
+         "amount" : 1,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "T_Candlelight_of_Hope",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Candlelight_of_Hope",
+         "amount" : 1,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "T_Lamplight_of_Guidance",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Lamplight_of_Guidance",
+         "amount" : 1,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "T_Dawn_of_the_Firmament",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Dawn_of_the_Firmament",
+         "amount" : 1,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "T_Shadowflame_of_Unease",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Shadowflame_of_Unease",
+         "amount" : -1,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "T_Glare_of_Distortion",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Glare_of_Distortion",
+         "amount" : -1,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "T_Deathfire_of_Nightmare",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Deathfire_of_Nightmare",
+         "amount" : -1,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "T_Darkness_of_Abyss",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Darkness_of_Abyss",
+         "amount" : -1,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "T_Fury_of_Brutality",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Fury_of_Brutality",
+         "amount" : -1,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "T_Greenflame_of_Decay",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Greenflame_of_Decay",
+         "amount" : -1,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "T_Redflame_of_Blood",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Redflame_of_Blood",
+         "amount" : -1,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "T_Frostfire_of_Sloth",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "Frostfire_of_Sloth",
+         "amount" : -1,
+         "duration_type" : "quest_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+
+      {
+         "id" : "T_light_speed_slow",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "light_speed_slow",
+         "amount" : 0.5,
+         "duration" : 8,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+
+
+
+      {
+         "id" : "T_lamp_keeper_passive_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "lamp_keeper_passive_1",
+         "amount" : 1,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "T_lamp_keeper_passive_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "lamp_keeper_passive_2",
+         "amount" : 1,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "T_lamp_keeper_passive_3",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "lamp_keeper_passive_3",
+         "amount" : -1,
+         "duration_type" : "combat_end",
+         "duration" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+
+
+
+      {
+         "id" : "T_tattered_cloak_1",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tattered_cloak_1",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "T_tattered_cloak_2",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "tattered_cloak_2",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      },
+      {
+         "id" : "T_unknown_lamp",
+         "stat_type" : "upgrade_discount",
+         "stat_sub_type" : "unknown_lamp",
+         "amount" : 1,
+         "remove_if_not_active" : false,
+         "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         }
+      }
+   ]
+}

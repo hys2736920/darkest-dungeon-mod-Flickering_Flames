@@ -1,0 +1,32 @@
+display: .size 1
+enemy_type: .id "eldritch"
+enemy_type: .id "abyss"
+enemy_type: .id "firmament"
+
+stats: .hp 49 .def 41.25% .prot 0 .spd 9 .stun_resist 80% .poison_resist 80% .bleed_resist 80% .debuff_resist 140% .move_resist 70%
+
+crit: .effects "FF_Crit_stun_3"
+
+skill: .id "spark_strike"       .type "melee"   .atk 95%        .dmg 4 7    .crit 15%  .launch 21      .target 12      .move 2 0 .is_crit_valid True .effect "FF_Spark_Strike_unimmobilize" "FF_Spark_Strike_burn_3" "FF_Spark_Strike_resist_stun_3"
+skill: .id "flames_of_march"    .type "ranged"  .atk 120%       .dmg 0 0    .crit 0%   .launch 43      .target 1234    .move 1 0 .is_crit_valid False .effect "FF_Flames_of_March_mark" "FF_Flames_of_March_cure_3" "FF_Flames_of_March_buff_3" "FF_Flames_of_March_buff_3_B"
+skill: .id "ominous_purple"     .type "ranged"  .atk 112.5%     .dmg 0 0    .crit 0%   .launch 43      .target ~1234   .move 1 0 .is_crit_valid False .effect "FF_Ominous_Purple_stress_3"
+skill: .id "siphon_life_lamp"   .type "ranged"  .atk 105%       .dmg 5 11   .crit 20%  .launch 4321    .target 1234    .move 1 0 .is_crit_valid True .effect "FF_Siphon_Life_Lamp_bleed_3" "FF_Siphon_Life_Lamp_healself_3"
+skill: .id "unclean_healing"    .type ""        .atk 500%       .dmg 0 0    .crit 0%   .launch 43      .target ~@1234  .move 1 0 .heal 2 4 .is_crit_valid True .effect "FF_Unclean_Healing_3"
+
+riposte_skill: .id "lamp_keeper_riposte" .type "melee" .atk 0% .dmg 0 0 .crit 0% .launch 1234 .target 1234 .move 1 0 .is_crit_valid False
+
+personality: .prefskill -1
+
+loot: .code "FF_LK_GT" .count 1
+loot: .code "FF_LK_lamp" .count 1
+loot: .code "FF_LK_G" .count 2
+
+initiative: .number_of_turns_per_round 2
+
+monster_brain: .id "lamp_keeper"
+
+death_class: .monster_class_id corpse_A .is_valid_on_crit False .type "corpse" 
+
+battle_modifier: .accelerate_stall_penalty True .disable_stall_penalty True .can_surprise True .can_be_surprised False .always_surprise False .always_be_surprised False
+
+spawn: .effects  "FF_Lamp_Keeper_Passive_1" "FF_Lamp_Keeper_Passive_2" "FF_Lamp_Keeper_Passive_Stealth"

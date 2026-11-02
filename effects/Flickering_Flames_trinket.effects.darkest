@@ -1,0 +1,26 @@
+//深淵的樂譜
+effect: .name "FF_abyss_musical_sheet_dot_heal" .target "performer" .curio_result_type "positive" .chance 35% .dotHpHeal 2 .duration 3 .on_hit true .on_miss false
+effect: .name "FF_abyss_musical_sheet_stress_heal" .target "performer_group_other" .curio_result_type "positive" .chance 50% .healstress 5 .on_hit true .on_miss false
+
+
+
+//襤褸斗篷
+effect: .name "FF_tattered_cloak_stealth" .target "performer" .curio_result_type "positive" .chance 50% .stealth 1 .duration 3 .on_hit true .on_miss true .apply_once true
+effect: .name "FF_tattered_cloak_unstealth" .target "performer" .curio_result_type "positive" .chance 100% .unstealth 1 .on_hit true .on_miss true .apply_once true
+
+//不明來路的提燈
+effect: .name "FF_unknown_lamp_resist_stun" .target "target" .curio_result_type "negative" .chance 120% .duration 3 .buff_ids "unknown_lamp_resist_stun" .on_hit true .on_miss false .apply_once true .queue false
+effect: .name "FF_unknown_lamp_stun" .target "target" .curio_result_type "negative" .chance 80% .stun 1 .on_hit true .on_miss false .apply_once false .queue true
+effect: .name "FF_unknown_lamp_burn" .target "performer" .curio_result_type "negative" .chance 100% .dotBurn 3 .dot_irresistible true .on_hit true .on_miss false .apply_once true .queue true
+
+//不明來路的黃提燈
+effect: .name "FF_unknown_lamp_y_buff_1" .target "target_group" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "unknown_lamp_y_DMGL" "unknown_lamp_y_DMGH" "unknown_lamp_y_ACC" .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "FF_unknown_lamp_y_buff_2" .target "target_enemy_group" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "unknown_lamp_y_DMGL" "unknown_lamp_y_DMGH" "unknown_lamp_y_ACC" .on_hit true .on_miss true .apply_once true .queue true
+
+//不明來路的紅提燈
+effect: .name "FF_unknown_lamp_r_healself" .target "performer" .curio_result_type "positive" .chance 100% .heal_percent 4% .on_hit true .on_miss false .apply_once false .queue true
+
+//不明來路的綠提燈
+effect: .name "FF_unknown_lamp_g_trigger" .target "target" .curio_result_type "neutral" .chance 50% .duration 3 .buff_ids "unknown_lamp_g_trigger" .on_hit true .on_miss true .apply_once false .queue true
+effect: .name "FF_unknown_lamp_g_resist_dis_down" .target "performer" .curio_result_type "negative" .chance 120% .duration 3 .buff_ids "unknown_lamp_g_resist_dis_down" .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "FF_unknown_lamp_g_poison" .target "target" .curio_result_type "negative" .chance 120% .dotPoison 2 .duration 3 .on_hit true .on_miss false .apply_once false .queue true

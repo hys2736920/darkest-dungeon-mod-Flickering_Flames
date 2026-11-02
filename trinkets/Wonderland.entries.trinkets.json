@@ -1,0 +1,359 @@
+{
+   "entries":
+   [
+      {
+         "id" : "Wonderland_Alice",
+         "trigger_limit" : 1,
+         "buffs" : 
+         [
+            "Wonderland_STRESSDMG_10",
+            "T_Wonderland_Alice_1",
+            "T_Wonderland_Trigger"
+         ],
+         "hero_class_requirements":
+         [
+            
+         ],
+         "rarity" :  "Wonderland",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "turn_end_additional_effects": [
+            "Wonderland_Alice_1",
+            "Wonderland_Alice_2",
+            "Wonderland_Alice_3",
+            "Wonderland_Alice_4",
+            "Wonderland_Alice_5",
+            "Wonderland_Alice_6",
+            "Wonderland_Alice_7",
+            "Wonderland_Alice_8",
+            "Wonderland_Alice_9",
+            "Wonderland_Alice_10",
+            "Wonderland_Alice_11",
+            "Wonderland_Alice_12",
+            "Wonderland_Alice_13",
+            "Wonderland_Alice_14",
+            "Wonderland_Alice_15",
+            "Wonderland_Alice_16",
+            "Wonderland_Alice_17",
+            "Wonderland_Alice_18",
+            "Wonderland_Alice_19",
+            "Wonderland_Alice_20",
+            "Wonderland_Alice_21",
+            "Wonderland_Alice_22",
+            "Wonderland_Alice_23",
+            "Wonderland_Alice_change"
+         ],
+         "transform_on_trigger_limit_exhausted": "Wonderland_Alice_T"
+      },
+      {
+         "id" : "Wonderland_Alice_T",
+         "trigger_limit" : 1,
+         "buffs" : 
+         [
+            "Wonderland_STRESSDMG_10",
+            "T_Wonderland_Alice_2",
+            "T_Wonderland_Trigger"
+         ],
+         "hero_class_requirements":
+         [
+            
+         ],
+         "rarity" :  "Wonderland",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "battle_finished_successfully_additional_effects": [
+            "Wonderland_Alice_change"
+         ],
+         "transform_on_trigger_limit_exhausted": "Wonderland_Alice"
+      },
+      
+      {
+         "id" : "Wonderland_March_Hare",
+         "trigger_limit" : 1,
+         "buffs" : 
+         [
+            "Wonderland_March_Hare_SPD_3",
+            "T_Wonderland_March_Hare_0",
+            "Wonderland_STRESSDMG_10",
+            "T_Wonderland_March_Hare_4",
+            "T_Wonderland_Trigger"
+         ],
+         "hero_class_requirements":
+         [
+            
+         ],
+         "rarity" :  "Wonderland",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "turn_end_additional_effects": [
+            "Wonderland_March_Hare_1",
+            "Wonderland_March_Hare_change"
+         ],
+         "transform_on_trigger_limit_exhausted": "Wonderland_March_Hare_T3"
+      },
+      {
+         "id" : "Wonderland_March_Hare_T3",
+         "trigger_limit" : 1,
+         "buffs" : 
+         [
+            "Wonderland_March_Hare_DMGL",
+            "Wonderland_March_Hare_DMGH",
+            "Wonderland_March_Hare_ignore_guard",
+            "Wonderland_March_Hare_ignore_prot",
+            "Wonderland_STRESSDMG_10",
+            "T_Wonderland_March_Hare_1",
+            "T_Wonderland_Trigger"
+         ],
+         "hero_class_requirements":
+         [
+            
+         ],
+         "rarity" :  "Wonderland",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "turn_end_additional_effects": [
+            "Wonderland_March_Hare_change"
+         ],
+         "transform_on_trigger_limit_exhausted": "Wonderland_March_Hare_T2"
+      },
+      {
+         "id" : "Wonderland_March_Hare_T2",
+         "trigger_limit" : 1,
+         "buffs" : 
+         [
+            "Wonderland_March_Hare_SPD_1",
+            "Wonderland_STRESSDMG_10",
+            "T_Wonderland_March_Hare_2",
+            "T_Wonderland_Trigger"
+         ],
+         "hero_class_requirements":
+         [
+            
+         ],
+         "rarity" :  "Wonderland",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "turn_end_additional_effects": [
+            "Wonderland_March_Hare_change"
+         ],
+         "transform_on_trigger_limit_exhausted": "Wonderland_March_Hare_T1"
+      },
+      {
+         "id" : "Wonderland_March_Hare_T1",
+         "trigger_limit" : 1,
+         "buffs" : 
+         [
+            "Wonderland_March_Hare_SPD_2",
+            "Wonderland_STRESSDMG_10",
+            "T_Wonderland_March_Hare_3",
+            "T_Wonderland_Trigger"
+         ],
+         "hero_class_requirements":
+         [
+            
+         ],
+         "rarity" :  "Wonderland",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "turn_end_additional_effects": [
+            "Wonderland_March_Hare_change"
+         ],
+         "transform_on_trigger_limit_exhausted": "Wonderland_March_Hare"
+      },
+      
+      {
+         "id" : "Wonderland_Caterpillar_1",
+         "trigger_limit" : 1,
+         "buffs" : 
+         [
+            "T_Wonderland_Caterpillar_B",
+            "T_Wonderland_Caterpillar_Y",
+            "Wonderland_STRESSDMG_10",
+            "T_Wonderland_Caterpillar_1",
+            "T_Wonderland_Trigger"
+         ],
+         "hero_class_requirements":
+         [
+            
+         ],
+         "rarity" :  "Wonderland",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "friendly_skill_additional_effects": [
+            "Wonderland_Caterpillar_B",
+            "Wonderland_Caterpillar_change"
+         ],
+         "attack_skill_additional_effects": [
+            "Wonderland_Caterpillar_Y",
+            "Wonderland_Caterpillar_change"
+         ],
+         "transform_on_trigger_limit_exhausted": "Wonderland_Caterpillar_2"
+      },
+      {
+         "id" : "Wonderland_Caterpillar_2",
+         "trigger_limit" : 1,
+         "buffs" : 
+         [
+            "T_Wonderland_Caterpillar_Y",
+            "T_Wonderland_Caterpillar_G",
+            "Wonderland_STRESSDMG_10",
+            "T_Wonderland_Caterpillar_2",
+            "T_Wonderland_Trigger"
+         ],
+         "hero_class_requirements":
+         [
+            
+         ],
+         "rarity" :  "Wonderland",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "attack_skill_additional_effects": [
+            "Wonderland_Caterpillar_Y",
+            "Wonderland_Caterpillar_change"
+         ],
+         "friendly_skill_additional_effects": [
+            "Wonderland_Caterpillar_G",
+            "Wonderland_Caterpillar_change"
+         ],
+         "transform_on_trigger_limit_exhausted": "Wonderland_Caterpillar_3"
+      },
+      {
+         "id" : "Wonderland_Caterpillar_3",
+         "trigger_limit" : 1,
+         "buffs" : 
+         [
+            "T_Wonderland_Caterpillar_G",
+            "T_Wonderland_Caterpillar_P",
+            "Wonderland_STRESSDMG_10",
+            "T_Wonderland_Caterpillar_3",
+            "T_Wonderland_Trigger"
+         ],
+         "hero_class_requirements":
+         [
+            
+         ],
+         "rarity" :  "Wonderland",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "friendly_skill_additional_effects": [
+            "Wonderland_Caterpillar_G",
+            "Wonderland_Caterpillar_change"
+         ],
+         "attack_skill_additional_effects": [
+            "Wonderland_Caterpillar_P",
+            "Wonderland_Caterpillar_change"
+         ],
+         "transform_on_trigger_limit_exhausted": "Wonderland_Caterpillar_4"
+      },
+      {
+         "id" : "Wonderland_Caterpillar_4",
+         "trigger_limit" : 1,
+         "buffs" : 
+         [
+            "T_Wonderland_Caterpillar_P",
+            "T_Wonderland_Caterpillar_B",
+            "Wonderland_STRESSDMG_10",
+            "T_Wonderland_Caterpillar_4",
+            "T_Wonderland_Trigger"
+         ],
+         "hero_class_requirements":
+         [
+            
+         ],
+         "rarity" :  "Wonderland",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "attack_skill_additional_effects": [
+            "Wonderland_Caterpillar_P",
+            "Wonderland_Caterpillar_change"
+         ],
+         "friendly_skill_additional_effects": [
+            "Wonderland_Caterpillar_B",
+            "Wonderland_Caterpillar_change"
+         ],
+         "transform_on_trigger_limit_exhausted": "Wonderland_Caterpillar_1"
+      },
+      
+      {
+         "id" : "Wonderland_Mad_Hatter",
+         "trigger_limit" : 1,
+         "buffs" : 
+         [
+            "Wonderland_Mad_Hatter_ignore_stealth",
+            "Wonderland_Mad_Hatter_DMGL",
+            "Wonderland_Mad_Hatter_DMGH",
+            "Wonderland_Mad_Hatter_crit",
+            "T_Wonderland_Mad_Hatter_D_1",
+            "T_Wonderland_Mad_Hatter_D_2",
+            "T_Wonderland_Murdered_Time",
+            "Wonderland_STRESSDMG_10",
+            "T_Wonderland_Mad_Hatter_1",
+            "T_Wonderland_Trigger"
+         ],
+         "hero_class_requirements":
+         [
+            
+         ],
+         "rarity" :  "Wonderland",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "was_hit_additional_effects": [
+            "Wonderland_Mad_Hatter_change"
+         ],
+         "on_dodge_additional_effects": [
+            "Wonderland_Mad_Hatter_D_1",
+            "Wonderland_Mad_Hatter_D_2",
+            "Wonderland_Mad_Hatter_D_3"
+         ],
+         "turn_end_additional_effects": [
+            "Wonderland_Mad_Hatter_D_clear"
+         ],
+         "transform_on_trigger_limit_exhausted": "Wonderland_Mad_Hatter_T"
+      },
+      {
+         "id" : "Wonderland_Mad_Hatter_T",
+         "trigger_limit" : 1,
+         "buffs" : 
+         [
+            "Wonderland_Mad_Hatter_T_dodge",
+            "T_Wonderland_Mad_Hatter_H_1",
+            "T_Wonderland_Mad_Hatter_D_2",
+            "T_Wonderland_Murdered_Time",
+            "Wonderland_STRESSDMG_10",
+            "T_Wonderland_Mad_Hatter_2",
+            "T_Wonderland_Trigger"
+         ],
+         "hero_class_requirements":
+         [
+            
+         ],
+         "rarity" :  "Wonderland",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "",
+         "was_hit_additional_effects": [
+            "Wonderland_Mad_Hatter_H_1"
+         ],
+         "on_dodge_additional_effects": [
+            "Wonderland_Mad_Hatter_D_2",
+            "Wonderland_Mad_Hatter_D_3",
+            "Wonderland_Mad_Hatter_change"
+         ],
+         "turn_end_additional_effects": [
+            "Wonderland_Mad_Hatter_D_clear"
+         ],
+         "transform_on_trigger_limit_exhausted": "Wonderland_Mad_Hatter"
+      }
+   ]
+}

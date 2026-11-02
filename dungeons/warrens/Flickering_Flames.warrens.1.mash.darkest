@@ -1,0 +1,29 @@
+hall: .chance 0.5 .types swine_reaver_A swine_wretch_A swine_drummer_A lamp_keeper_A
+hall: .chance 0.5 .types swine_reaver_A swine_wretch_A swine_wretch_A lamp_keeper_A
+hall: .chance 0.5 .types swine_reaver_A swine_wretch_A madman_A lamp_keeper_A
+hall: .chance 0.5 .types carrion_eater_A swine_reaver_A swine_drummer_A lamp_keeper_A
+hall: .chance 0.5 .types carrion_eater_A swine_reaver_A swine_wretch_A lamp_keeper_A
+hall: .chance 0.5 .types carrion_eater_A swine_reaver_A madman_A lamp_keeper_A
+hall: .chance 0.5 .types carrion_eater_A carrion_eater_A carrion_eater_A lamp_keeper_A
+hall: .chance 0.5 .types swine_wretch_A swine_wretch_A swine_wretch_A lamp_keeper_A
+hall: .chance 0.5 .types cultist_brawler_A cultist_brawler_A cultist_witch_A lamp_keeper_A
+hall: .chance 0.5 .types cultist_brawler_A cultist_brawler_A swine_drummer_A lamp_keeper_A
+hall: .chance 0.5 .types cultist_brawler_A cultist_brawler_A swine_wretch_A lamp_keeper_A
+hall: .chance 0.5 .types skeleton_common_A cultist_brawler_A cultist_witch_A lamp_keeper_A
+hall: .chance 0.5 .types brigand_blood_A brigand_fusilier_A lamp_keeper_A
+hall: .chance 0.5 .types brigand_cutthroat_A brigand_cutthroat_A brigand_fusilier_A lamp_keeper_A
+
+room: .chance 0.5 .types swine_reaver_A swine_wretch_A swine_drummer_A lamp_keeper_A
+room: .chance 0.5 .types swine_reaver_A swine_wretch_A swine_wretch_A lamp_keeper_A
+room: .chance 0.5 .types swine_reaver_A swine_wretch_A madman_A lamp_keeper_A
+room: .chance 0.5 .types swine_reaver_A cultist_brawler_A cultist_witch_A lamp_keeper_A
+room: .chance 0.5 .types swine_reaver_A cultist_brawler_A swine_drummer_A lamp_keeper_A
+room: .chance 0.5 .types swine_reaver_A cultist_brawler_A swine_wretch_A lamp_keeper_A
+room: .chance 0.5 .types carrion_eater_A swine_reaver_A swine_drummer_A lamp_keeper_A
+room: .chance 0.5 .types carrion_eater_A swine_reaver_A swine_wretch_A lamp_keeper_A
+room: .chance 0.5 .types carrion_eater_A swine_reaver_A madman_A lamp_keeper_A
+room: .chance 0.5 .types carrion_eater_A carrion_eater_A carrion_eater_A lamp_keeper_A
+room: .chance 0.5 .types cultist_brawler_A cultist_brawler_A cultist_witch_A lamp_keeper_A
+room: .chance 0.5 .types cultist_brawler_A cultist_brawler_A swine_drummer_A lamp_keeper_A
+room: .chance 0.5 .types cultist_brawler_A cultist_brawler_A swine_wretch_A lamp_keeper_A
+room: .chance 0.5 .types brigand_blood_A brigand_fusilier_A lamp_keeper_A

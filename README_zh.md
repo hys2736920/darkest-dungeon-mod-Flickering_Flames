@@ -1,4 +1,4 @@
-[English](README.md) | [繁體中文](README_zh-TW.md)
+[English](README.md) | [繁體中文](README_zh.md)
 ## 近期更新
 v1.2.1
 - "天穹曙光"的效果調整，獲得此效果後，若英雄處於折磨狀態，下一次攻擊會清空自身壓力，並脫離折磨狀態。

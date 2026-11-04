@@ -1,4 +1,4 @@
-[English](README.md) | [繁體中文](README_zh-TW.md)
+[English](README.md) | [繁體中文](README_zh.md)
 ## Recent Update
 v1.2.1
 - "Dawn of the Firmament" effect adjusted: After gaining this effect, if the Hero is Afflicted, their next attack will clear their Stress and remove the Affliction.

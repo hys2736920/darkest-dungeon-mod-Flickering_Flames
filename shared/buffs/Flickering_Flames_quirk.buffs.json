@@ -184,6 +184,25 @@
             "string" : ""
          },
 		   "is_clear_debuff_valid": false
+      },
+
+
+
+      {
+         "id" : "FF_Clear_Empty_Quirk",
+         "stat_type" : "",
+         "stat_sub_type" : "",
+         "amount" : 0.0,
+		   "remove_on_battle_complete" : false,
+         "remove_if_not_active" : false,
+         "attack_additional_effect_ids" : [ "Clear_Empty_Quirk" ],
+		   "rule_type" : "always",
+         "is_false_rule" : false,
+         "rule_data" : {
+            "float" : 0,
+            "string" : ""
+         },
+		   "is_clear_debuff_valid": false
       }
    ]
 }

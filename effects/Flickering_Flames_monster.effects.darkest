@@ -45,9 +45,10 @@ effect: .name "FF_SummonTentacle_Z" .target "performer" .chance 100%  .summon_co
 effect: .name "FF_shuffle_phagocytosis" .target "target" .chance 500% .steal_buff_source_type bsrc_curio .on_hit true .on_miss true .apply_once true
 effect: .name "FF_shuffle_heal_percent" .target "performer" .chance 100% .heal_percent 5% .can_crit_heal false .on_hit true .on_miss true .apply_once true
 
-//結束給怪癖跟清注視
+//結束給怪癖跟清怪癖
 effect: .name "Gift_from_Abyss" .target "target_group" .curio_result_type "positive" .chance 10000% .disease "FF_Gift_from_Abyss" .on_hit true .on_miss true .apply_once true .queue true
-effect: .name "No_Longer_Staring" .target "target_group" .curio_result_type "positive" .chance 10000% .disease "FF_No_Longer_Staring" .on_hit true .on_miss true .apply_once true
+effect: .name "No_Longer_Staring" .target "target_group" .curio_result_type "positive" .chance 10000% .cure_quirk_tags "FF_Prey_of_Abyss" .on_hit true .on_miss true .apply_once true
+effect: .name "Clear_Empty_Quirk" .target "performer_group" .curio_result_type "positive" .chance 10000% .cure_quirk_tags "FF_empty_quirk" .on_hit true .on_miss true .apply_once true
 
 
 

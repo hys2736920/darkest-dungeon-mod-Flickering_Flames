@@ -1,5 +1,8 @@
 [English](README.md) | [繁體中文](README_zh.md) | [簡体中文](README_cn.md)
 ## Recent Update
+v1.2.2
+- Optimize the code for removing "Gaze of Abyss"
+
 v1.2.1
 - "Dawn of the Firmament" effect adjusted: After gaining this effect, if the Hero is Afflicted, their next attack will clear their Stress and remove the Affliction.
 - "Darkness of Abyss" effect adjusted: After gaining this effect, if the Hero is Virtued, their next attack will clear their Stress and remove the Virtue.
